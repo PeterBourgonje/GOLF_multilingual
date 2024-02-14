@@ -1,6 +1,5 @@
-transformers
-pytorch-pretrained-bert
-nltk
-scikit-learn
-pickle
+transformers==4.37.0
+pytorch-pretrained-bert==0.6.2
+nltk==3.8.1
+scikit-learn==1.4.0
 tqdm
