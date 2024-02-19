@@ -1,0 +1,292 @@
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| hai problemi di presumo raggiungimento quota massima di la casella di posta ||| perchè ti da delivery quote error
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| il messaggio è proprio questo ||| per cui scrive su il database di posta salvando questo messaggio si supera la quota di il disco
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| scrive su il database di posta salvando questo messaggio si supera la quota di il disco ||| qui dice eliminare alcuni messaggi
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| qui dice eliminare alcuni messaggi ||| io ho eliminato alcuni file di posta
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| eliminare alcuni messaggi ||| svuotare il cestino
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| svuotare il cestino ||| e comprimere i file di posta
+['Expansion', 'Expansion.Alternative', 'and'] ||| [None, None, None] ||| comprimere i file di posta ||| o chiedere aiuto a l' amministratore
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io ho eliminato alcuni file di posta prima ||| ovviamente prima li ho decappati
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| prima ovviamente prima li ho decappati ||| li ho eliminati
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| li ho eliminati ||| ho svuotato il cestino
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| ho svuotato il cestino ||| ma mi da ancora questo questo alarm questo messaggio
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| provo a collegar mi ||| allora mi collego
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| ce la facciamo <*> ce la facciamo con tutta la dovuta calma ||| ma ce la facciamo
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| non riesco a collegar mi ||| ma io sono su rete amministrativa
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non possiamo proprio ||| siete schermati completamente
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| facciamo una cosa ||| io faccio controlla faccio fare prima un controllo da parte di i sistemisti di posta
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io faccio controlla faccio fare prima un controllo da parte di i sistemisti di posta ||| se mi dicono che da parte loro è tutto ok ti mando una persona li direttamente su il posto
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| una persona li direttamente su il posto che ti fa una verifica su la postazione ||| tanto io posso fare comunque le far fare le verifiche su le caselle di posta verifica di anche su la rete amministrativa
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| loro loro sono in sala server per cui ||| gestiscono diciamo i server relativi a dove sono praticamente tutte le caselle di posta
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| gestiscono diciamo i server relativi a dove sono praticamente tutte le caselle di posta per cui ||| hanno modo di vedere cose che naturalmente noi da qua non riusciamo assolutamente a vedere ad accedere
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io <*> appena <*> ti do un colpo di telefono ||| mi danno una risposta i sistemisti
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| ti lascio il numero <*> ti lascio il numero di remedy ||| però aspetta
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| 437 ||| segnalo su un foglietto
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| sono <PER> <PER> ||| chiamo da la <ORG> <ORG> <ORG>
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| in questo momento lo sto cercando ||| ma non lo trova
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| non lo trova ||| la data <*> la data però è quella di ieri <*> la data però è quella di ieri è quella di ieri
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| il problema era che mi hanno cambiato il computer ||| il suo collega il tecnico mi aveva messo una password provvisoria che io ho provveduto a <*> cambiare
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io ho provveduto a <*> cambiare ||| ed ora non entro più
+['Temporal', 'Temporal.Synchrony', 'and'] ||| [None, None, None] ||| ora non entro più ||| intanto qua vedo che glie ne hanno impostata una standard che mettiamo solitamente <*> intanto qua vedo che glie ne hanno impostata una standard che mettiamo solitamente con obbligo di cambio a il primo accesso
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| glie ne hanno impostata una standard che mettiamo solitamente <*> glie ne hanno impostata una standard che mettiamo solitamente con obbligo di cambio a il primo accesso ||| adesso proviamo a vedere se riusciamo a entrare
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| adesso proviamo a vedere se riusciamo a entrare ||| e la cambiamo insieme
+['Temporal', 'Temporal.Synchrony', 'and'] ||| [None, None, None] ||| adesso proviamo a vedere se riusciamo a entrare ||| intanto io scrivo <PER> <PER>
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| aspetti un attimo ||| che ho il computer nuovo
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| ho il computer nuovo e ||| devo capire dove ce l' ho
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| glie la dico ||| ma la scrivo io
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| la scrivo io ||| perchè <*> facciamo prima
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| qua ci chiede la vecchia password che è quella che attualmente le avevano messo i <*> sistemisti ||| qua sotto digiti lei la nuova
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| sotto digiti lei la nuova ||| metta quello che preferisce
+['Expansion', 'Expansion.Alternative', 'and'] ||| [None, None, None] ||| se la mette come le ho detto io quindi almeno una maiuscola almeno una minuscola almeno un numero e tra tutto lunga otto caratteri <*> se la mette come le ho detto io quindi almeno una maiuscola almeno una minuscola almeno un numero e tra tutto lunga otto caratteri dovrebbe prendere sicuramente ||| se <*> invece mette <*> mette <*> invece mette soltanto la maiuscola piuttosto che soltanto la minuscola che piuttosto soltanto il numero allora c' è il rischio che storca il naso
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| storca il naso ||| e ci dica di rivisitar la
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| la mette come le ho detto io quindi almeno una maiuscola almeno una minuscola almeno un numero e tra tutto lunga otto caratteri ||| però non sono è otto lì signora
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non sono è otto lì signora ||| perchè <*> ha il blocco numerico impostato
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| lo digiti di nuovo qua sotto ||| proviamo a dar gli invio
+['Temporal', 'Temporal.Synchrony', 'and'] ||| [None, None, None] ||| adesso ci caricherà la pagina di la posta ||| spettiamo solo un attimo
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| la sua nuova password è questa signora ||| abbiamo visto che entrare entra
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| facciamo così ||| io glie ne imposto una standard
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io glie ne imposto una standard ||| lei prova a vedere se riesce a accedere
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| una volta che <*> una volta che se la cambia ||| ha è entrata dentro il dominio con quella password
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| se la cambia ||| e si mette di nuovo quella che che vuole lei
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| entriamo con quella che le ho messo io ||| e <*> facciamo il cambio insieme
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| entriamo con quella che le ho messo io ||| poi facciamo il cambio insieme
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| facciamo un cambia password ||| ora mettiamo quella che le ho impostato io adesso
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| ora mettiamo quella che le ho impostato io adesso ||| allora digiti quella nuova tenendo presente che deve avere sempre almeno otto caratteri
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| facciamo così ||| digiti pure la sua
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| digiti pure la sua ||| diamo pure la conferma
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| io non voglio sapere che password ha messo ||| però la maiuscola l' ha messa
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| a me non frega niente ||| tanto la sanno <*> tutti
+['Expansion', 'Expansion.Alternative', 'and'] ||| [None, None, None] ||| forse ho messo il numero ||| o forse non ho messo la <*> maiuscola
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| la riscriva uguale ||| poi me lo devo scrivere per <*> bene
+['Expansion', 'Expansion.Alternative', 'and'] ||| [None, None, None] ||| me lo devo scrivere per <*> bene ||| altrimenti domani mattina sono di nuovo <*> altrimenti domani mattina sono di nuovo da capo
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| domani mattina sono di nuovo <*> domani mattina sono di nuovo da capo ||| ma <*> noi <*> ci siamo <*> ci siamo qui domani mattina
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| domani mattina sono di nuovo <*> domani mattina sono di nuovo da capo ||| tanto noi <*> tanto noi ci siamo <*> tanto noi ci siamo qui domani mattina
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non può mettere quella che abbiamo messo oggi o comunque simile ||| perché c' è il rischio che il sistema non la non l' accetti
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| la nuova pass la password è stata cambiata ||| adesso facciamo una prova come se fossimo appena arrivati
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| adesso facciamo una prova ||| faccia pure control alt canc
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| faccia pure control alt canc ||| provi a accedere di nuovo
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| io sono in la pagina ||| dovrei inserire due colleghe <*> dovrei inserire due colleghe a il no un corso obiettivo
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io sono in la pagina ||| quindi io cliccando su corso obiettivo mi viene la schermata
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| mi viene la schermata ||| inserisco il cognome
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| inserisco il cognome ||| clicco su la lente
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| clicco su la lente ||| e non succede nu la
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| non succede nu la ||| cioè <*> la parte inferiore in basso dove c' è matricola cognome nome sesso <CHAR> <CHAR> gestione rimane bianca
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| non succede nu la ||| in il senso che la parte inferiore in basso dove c' è matricola cognome nome sesso <CHAR> <CHAR> gestione rimane bianca
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| dovrebbe apparire <*> dovrebbe apparire una finestra cliccando <*> dovrebbe apparire una finestra cliccando su la su la lente ||| la finestra c' è
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| dovrebbe apparire <*> dovrebbe apparire una finestra cliccando <*> dovrebbe apparire una finestra cliccando su la su la lente ||| dovrebbe essere completata con i dati di la persona interessata
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| dovrebbe essere completata con i dati di la persona interessata ||| dovrebbero comparire numero di matricola cognome e nome
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| dovrebbero comparire numero di matricola cognome e nome ||| invece non mi succede nu la proprio
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| non mi succede nu la proprio ||| è fermo
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| è fermo ||| io clicco qua ma è come se non facessi niente
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| io clicco qua ||| ma è come se non facessi niente
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| dovrei inserire due colleghe ||| quindi non riesce a inserire i dati di due colleghe
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| non riesce a inserire i dati di due colleghe ||| ma anche l' altro ieri non son riuscito non in il corso obiettivo ma in i corsi programmati
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| altri due colleghi dovevo invertir li ||| e ho parlato con un suo collega
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| ho parlato con un suo collega ||| però non non succede niente
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| praticamente me gli ha caricati lui da il dal <ORG> cioè ||| l' ha fatto <*> l' ha fatto lui la l' operazione
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| si chiama <*> si chiama pubblicità di gl' atti dirigenziali e privacy ||| il codice di il corso è <CHAR> <*> il codice di il corso è <CHAR> come <LOC.SPELL> <CHAR> come <LOC.SPELL> <DIGIT> <NUM>
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| io purtroppo non sono di il gruppo <SW> ||| purtoppo non mi occupo di <SW>
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| purtoppo non mi occupo di <SW> e ||| praticamente adesso bypasso la richiesta a i colleghi in <ORG> che si occupano di <SW>
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| adesso c' è un corso adesso ||| e magari adesso si potrebbe me lo potrebbe fare chiunque
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| magari adesso si potrebbe me lo potrebbe fare chiunque ||| e <*> magari per la sistemazione di il programma anche più in là
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| magari adesso si potrebbe me lo potrebbe fare chiunque ||| poi magari per la sistemazione di il programma anche più in là
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| magari per la sistemazione di il programma anche più in là ||| però a il momento avevo questa urgenza
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| a il momento avevo questa urgenza quindi ||| io se aspetto qua mi chiama qualcuno
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| le lascio il numero di intervento ||| se lo segni su un foglietto
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| le lascio il numero di intervento ||| è <NUM> <*> è <NUM> <DIGIT> <DIGIT> <*> è <NUM> <DIGIT> <DIGIT> <DIGIT> <DIGIT>
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| stamattina non riesco ad entrare in il programma di il protocollo ||| io sono <PER> <ORG> <ORG> <LOC> <LOC> <LOC> <*> io sono <PER> <ORG> <ORG> <LOC> <LOC> <LOC> <NUM> <LOC>
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| da stamattina a le <DIGIT> e mezza <*> da stamattina a le <DIGIT> e mezza in regione ci sono problemi in l' area personale ||| ci sono problemi anche ad accedere a le procedure a cui una persona solitamente accede per appunto <*> lavorare
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| 80 ||| perchè è proprio il mio lavoro
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| è il protocollo ||| è un problema di carattere generale
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| è un problema di carattere generale quindi ||| 99
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| era stata inizialmente chiusa quella richiesta di stamattina ||| è stata riaperta
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| è stata riaperta ||| perchè naturalmente hanno di nuovo chiamato
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| naturalmente hanno di nuovo chiamato ||| perchè c' erano ancora problemi <*> perchè c' erano ancora problemi ad accedere a le procedure informatiche
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| ancora è un problema che tutt' ora persiste ||| non abbiamo ancora tempistiche però
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non abbiamo ancora tempistiche <*> non abbiamo ancora tempistiche è per quello ||| è per quello ogni tanto provi a entrare
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| ogni tanto provi a entrare signora ||| perchè <*> non chiamano tutti per poi comunicare che è rientrato il problema
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non chiamano tutti per poi comunicare che è rientrato il problema cui ||| ogni tanto provi ad entrare per vedere se <*> ogni tanto provi ad entrare per vedere se se riesce
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| per quanto riguarda invece l' orario di lavoro non si riesce ancora ad avere a video gli gli orari il il quantificato l' orario di la giornata ||| so che ci sono di i problemi
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| so che ci sono di i problemi ||| non mi sa dire qualcosa in merito
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| le timbrature è ecco ancora sussistono ||| e <*> chissà fino a quando <*> stanno
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| chissà fino a quando <*> stanno ||| perchè stanno continuamente aggiornando a parte la intranet
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| stanno continuamente aggiornando a parte la intranet ||| e so che c' erano problemi con le timbrature
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| so che c' erano problemi con le timbrature ||| perchè avevo sentito anche <*> perchè avevo sentito anche un' altra sua collega <*> perchè avevo sentito anche un' altra sua collega di un' altra direzione
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| mi diceva che non aveva per giorno <*> mi diceva che non aveva per giorno il totale di le ore che aveva aveva fatto ||| e mi aveva detto che aveva comu <*> e mi aveva detto che aveva comu provava comunque a sentire anche l' ufficio personale
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| anzi no da fine <MM> da fine <MM> ||| perchè a me mancano di le giustificazioni di le giustifiche che io ho <*> perchè a me mancano di le giustificazioni di le giustifiche che io ho ho chiesto a fine <MM>
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| non mi compare ||| io non non ho mado di vedere l' a l' aggiornamento di il del mio orario <*> io non non ho mado di vedere l' a l' aggiornamento di il del mio orario di lavoro a livello settimanale o comunque mensile
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| io non non ho mado di vedere l' a l' aggiornamento di il del mio orario <*> io non non ho mado di vedere l' a l' aggiornamento di il del mio orario di lavoro a livello settimanale o comunque mensile ||| perchè ci stanno ancora lavorando su
+['Temporal', 'Temporal.Synchrony', 'and'] ||| [None, None, None] ||| ci stanno ancora lavorando su ||| e stano facendo sempre di le modifiche
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| abbiamo due cassetti di la stampante ||| se mettiamo il cassetto il secondo i fogli si inceppano sempre
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| i fogli si inceppano sempre ||| abbiamo dovuto togliere il secondo cassetto
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| togliere il secondo cassetto ||| metter le solo in il primo
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| abbiamo dovuto togliere il secondo cassetto metter le solo in il primo ||| ma continua continua ad inceppar si il foglio in il rullo
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| oramai non la non la stiamo usando più da tre o quattro giorno ||| perché <*> si inceppa
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ogni volta che <*> ogni volta che si inceppa ||| diamo un avvio di stampa
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| non è una cosa sporadica ||| evidentemente c' è qualcosa che non <*> va
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| ogni volta che diamo un avvio di stampa si inceppa ||| e <*> abbiamo vi abbiamo notato che purtroppo a l' interno magari non so è c' è dove ci sono i il dove c' è il rullo che tira su il foglio c' erano come due specie di rondelline staccate
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| ogni volta che diamo un avvio di stampa si inceppa ||| poi abbiamo vi abbiamo notato che purtroppo a l' interno magari non so è c' è dove ci sono i il dove c' è il rullo che tira su il foglio c' erano come due specie di rondelline staccate
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| a l' interno magari non so è c' è dove ci sono i il dove c' è il rullo che tira su il foglio c' erano come due specie di rondelline staccate ||| e una c' è un un filo nero che pende un pochino di più rispetto a l' altro
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| una c' è un un filo nero che pende un pochino di più rispetto a l' altro ||| e <*> abbiamo pensato che magari tirando il vassoio abbiamo magari combinato qualche pasticcio
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| c' è un un filo nero che pende un pochino di più rispetto a l' altro <*> quindi ||| abbiamo pensato che magari tirando il vassoio abbiamo magari combinato qualche pasticcio
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| c' è un un filo nero che pende un pochino di più rispetto a l' altro ||| quindi una è un pò più in giù rispetto a l' altra
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| posso vedere a l' interno ||| perché il il vassoio è quello lì trasparente
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| il il vassoio è quello lì trasparente quindi ||| togliendo vedo il ru una parte di il rullo che d dovrebbe tirare il foglio
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| togliendo vedo il ru una parte di il rullo che d dovrebbe tirare il foglio ||| e accanto a le due rondelle ci sono come due rondelle
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| accanto a le due rondelle ci sono come due rondelle ||| c' è una specie di come una specie di gomma diciamo così un filo di gomma che pende un pò di più rispetto a l' altro
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| c' è una specie di come una specie di gomma <*> c' è una specie di come una specie di gomma un filo di gomma che pende un pò di più rispetto a l' altro ||| e <*> non so se è quello che va inceppare poi il foglio
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| c' è una specie di come una specie di gomma diciamo così un filo di gomma che pende un pò di più rispetto a l' altro <*> quindi ||| non so se è quello che va inceppare poi il foglio
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| mi faccia una cortesia ||| perché <*> non ho il numero di serie di la stampante
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non ho il numero di serie di la stampante ||| lei me lo riesce a reperire
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| il numero di serie <*> è <*> il numero di serie per le stampanti normali ||| questa qua è una stampante di rete
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| il numero di serie <*> è <*> il numero di serie per le stampanti normali ||| e <*> è un codice alfa numerico che rilascia praticamente la casa produttrice di questo bene
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| il numero di serie <*> è <*> il numero di serie per le stampanti normali ||| ed è un codice alfa numerico che rilascia praticamente la casa produttrice di questo bene
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| è un codice alfa numerico che rilascia praticamente la casa produttrice di questo bene ||| ed è riportato su un' etichetta
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| perché è a l' interno <*> perché è a l' interno di un di uno sportello ||| una cosa che non trova mai nessuno
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| 634 ||| perché quella è una cosa che non trova mai nessuno
+['Temporal', 'Temporal.Synchrony', 'and'] ||| [None, None, None] ||| quando <*> mai una volta che li trovino ||| chiediamo i seriali
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| quella è una cosa che non trova mai nessuno ||| quando chiediamo i seriali mai una volta che li trovino
+['Expansion', 'Expansion.Alternative', 'and'] ||| [None, None, None] ||| mai una volta che li trovino ||| invece lei l' ha trovato subito
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| ce l' avevo <*> diverso ||| aspetti che lo correggo
+['Temporal', 'Temporal.Synchrony', 'and'] ||| [None, None, None] ||| stava facendo il corso learning ||| e <*> mi ha dato errore su il sull' accesso a il share condiviso
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| mi ha dato errore su il sull' accesso a il share condiviso <*> allora ||| io ho prima ho riavviato
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| io ho prima ho riavviato ||| ma l' errore c' era lo stesso
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| l' errore c' era lo stesso <*> allora ||| ho spento
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ho spento ||| e riacceso
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| 54 ||| e adesso non mi appare più il disco
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non mi appare più il disco ||| ho detto devo di nuovo connetter mi
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| devo di nuovo connetter mi ||| sono andata per connetter mi
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| sono andata per connetter mi ||| non c' è più tra l' elenco di il di quelli di la <ORG> <ORG> <*> non c' è più tra l' elenco di il di quelli di la <ORG> <ORG> non c' è più <LOC> <LOC> <DIGIT>
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| non c' è più <LOC> <LOC> <DIGIT> ||| e non so perchè
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non vorrei ci fosse stato qualche problemino ||| perchè stavo facendo sta cosa in elearning
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| <DIGIT> noi siamo <CHAR> <CHAR> <DIGIT> ||| perchè è <LOC> <LOC> <DIGIT>
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| è <LOC> <LOC> <DIGIT> ||| e non c' è più
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| non c' è più ||| ma perchè adesso è riapparso
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| lui mi ha dato errore su <*> lui mi ha dato errore su <CHAR> <CHAR> ||| non riesce a connetter si su questo <CHAR> <CHAR>
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| che è quello ricondiviso ||| c' è quello di sicurezza
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| e anche su l' altro ||| perchè io stavo lavorando su l' altro dove c' è tutti gli altri documenti
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| si avvisa che il giorno <NUM> <MM> da le ore <NUM> a le <NUM> sarà effettuato lo spegnimento di il server ||| c' è proprio un fermo programmato
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| c' è proprio un fermo programmato ||| probabilmente me l' aveva anche detto
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| probabilmente me l' aveva anche detto ||| ma non me la sono segnata
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| il giorno <NUM> <MM> da le ore <NUM> a le <NUM> sarà effettuato lo spegnimento di il server <*> quindi ||| da le <NUM> a le <NUM> non saranno pertanto disponibili in questa fascia oraria i servizi di stampante file server
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| il giorno <NUM> <MM> da le ore <NUM> a le <NUM> sarà effettuato lo spegnimento di il server <*> pertanto ||| da le <NUM> a le <NUM> non saranno <*> da le <NUM> a le <NUM> non saranno disponibili in questa fascia oraria i servizi di stampante file server
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| atti amministrativi ovviamente anche non funzionerà ||| la posta elettronica l' attivano
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| la posta elettronica l' attivano ||| tutto il resto che non è legato a quel server funziona
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| proprio me l' ero dimenticata sta cosa ||| credevo avevo paura che fosse collegato a il a il proble a il discorso di il del coso
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| mi scusi ||| anzi ha fatto bene
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| ha fatto bene ||| così almeno le le ho dato conferma di questo fermo
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| 23 ||| questa mattina mi hanno chiamato
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| in realtà ho fatto un piccolo intervento ||| e sembrava che andasse tutto bene
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| sembrava che andasse tutto bene ||| adesso si è ripresentato di nuovo <*> adesso si è ripresentato di nuovo lo stesso problema
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| riapro l' intervento ||| lo aggiorno
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| l' evento è stato fatto ||| però il problema <*> persiste
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| le lascio gestito lo stesso numero di richiesta <*> le lascio gestito lo stesso numero di richiesta per cui ||| la richiesta è <*> la richiesta è sempre la stessa
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| attendo che mi chiamino ||| la faccio richiamare <*> la faccio richiamare ovviamente da i miei colleghi
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| nonostante l' installazione avvenuta on site non riesce a utilizzare lo scanner ||| visualizza un messaggio in cui vengono richiesti i privilegi di amministratore
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| dovrebbe esser ci un intervento ancora di ieri l' ultimo ||| c' è stato un intervento ieri non risolutivo
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| c' è stato un intervento ieri non risolutivo ||| e <*> probabilmente c' eran problemi di <*> collegamento
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| io direttamente non posso attivare lui ||| posso semplicemente attivare i suoi responsabili quindi i responsabili di il collega <*> posso semplicemente attivare i suoi responsabili quindi i responsabili di il collega che dovrebbero dare la possibilità a lui di di operare fare l' intervento
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| io direttamente non posso attivare lui ||| però <*> può operare tranquillamente
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| visto che la richiesta io gliel' ho girata ||| può operare tranquillamente
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| la richiesta io gliel' ho girata quindi ||| può operare tranquillamente
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| può operare tranquillamente ||| e <*> glie l' assegnano anche dopo
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| può operare tranquillamente ||| poi <*> glie l' assegnano anche dopo
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| da il <NUM> <NUM> ho avuto di i problemi con il computer ||| perché non riuscivo più ad avviar lo
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| non riuscivo più ad avviar lo ||| 63
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| beeppava cioè ||| faceva quel suono
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| da il <NUM> <NUM> ho avuto di i problemi con il computer ||| ho segnalato il guasto
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ho segnalato il guasto ||| e il ven il <NUM> <NUM> <NUM> hanno sostituito la scheda madre
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| il ven il <NUM> <NUM> <NUM> hanno sostituito la scheda madre ||| dopo di che la sostituzione <*> dopo di che la sostituzione non ha dato esito positivo
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| il ven il <NUM> <NUM> <NUM> hanno sostituito la scheda madre ||| la sostituzione <*> la sostituzione però non ha dato esito positivo <*> la sostituzione però non ha dato esito positivo non ha dato esito positivo
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| la sostituzione però non ha dato esito positivo ||| e <*> il <NUM> <MM> <NUM> è stata nuovamente sostituita
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| la sostituzione però non ha dato esito positivo <*> quindi ||| il <NUM> <MM> <NUM> è stata nuovamente sostituita
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| la sostituzione però non ha dato esito positivo ||| successivamente il <NUM> <MM> <NUM> è stata nuovamente sostituita
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| il <NUM> <MM> <NUM> è stata nuovamente sostituita ||| hanno cercato di sostituire la scheda madre <*> hanno cercato di sostituire la scheda madre di nuovo difettosa
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| hanno cercato di sostituire la scheda madre <*> hanno cercato di sostituire la scheda madre di nuovo difettosa ||| e <*> hanno soltanto sostituito il processore
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| hanno cercato di sostituire la scheda madre <*> hanno cercato di sostituire la scheda madre di nuovo difettosa ||| questa mattina sono rientrata sono rientrata da il dalle ferie da una settimana di ferie e non sono riuscita ad avviare il computer
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| questa mattina sono rientrata sono rientrata da il dalle ferie da una settimana di ferie ||| e non sono riuscita ad avviare il computer
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| non sono riuscita ad avviare il computer ||| continua a <*> fare
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| continua a <*> fare ||| continua <*> a beeppare
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| otto è allora ||| mi sa che è la scheda madre o è la scheda video o è la scheda madre
+['Expansion', 'Expansion.Alternative', 'and'] ||| [None, None, None] ||| o <*> è la scheda madre ||| è la scheda video
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| finisco di <*> finisco di compilare la richiesta ||| dopo di che attivo direttamente la <BRAND> per insomma <*> dopo di che attivo direttamente la <BRAND> per insomma far gli fare <*> dopo di che attivo direttamente la <BRAND> per insomma far gli fare l' ennesima <*> verifica
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| attivo direttamente la <BRAND> per insomma <*> attivo direttamente la <BRAND> per insomma far gli fare <*> attivo direttamente la <BRAND> per insomma far gli fare l' ennesima <*> verifica ||| perché <*> bisogna capire insomma cosa con che cosa sostituiscano i pezzi
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| è hardware il problema ||| bisogna capire insomma cosa con che cosa sostituiscano i pezzi
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| appurato che è hardware il problema ||| bisogna capire insomma cosa con che cosa sostituiscano i pezzi
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| bisogna capire insomma cosa con che cosa sostituiscano i pezzi ||| perché a sto punto mi ven mi pare molto strano
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| mi ha detto palazzina <CHAR> <*> allora ||| 377
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| 377 ||| perché qua risulta palazzina <ORD> <ORD>
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| questo non le lo so dire ||| perché non ho un rilevamento
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| se aspetta un attimino vedo se è indicata ||| ma non è un problema
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non è un problema ||| tanto faccio chiedere di lei
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| lo lancio da il mio desktop ||| vedo apparire l' immagine di sfuggito
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| vedo apparire l' immagine di sfuggito ||| e scompare subito
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| lo lancio da il mio desktop <*> lo lancio da il mio desktop vedo apparire l' immagine di sfuggito e scompare subito ||| allora <*> selezionando l' icona su il desktop appare qualche ista per qualche secondo il caricamento dopo di che <*> scompare
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| lo lancio da il mio desktop <*> lo lancio da il mio desktop vedo apparire l' immagine di sfuggito e scompare subito ||| quindi selezionando l' icona su il desktop appare qualche ista per qualche secondo il caricamento dopo di che <*> scompare
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| selezionando l' icona su il desktop appare qualche ista per qualche secondo il caricamento ||| dopo di che <*> scompare
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| è questo ||| è un <BRAND> <*> <BRAND>
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| è questo ||| allora è questo sì
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| facciamo una cosa ||| le faccio controllare il <SW>
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| le faccio controllare il <SW> ||| mi da il suo nume numero di interno
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| io le lascio il numero di richiesta ||| allora la richiesta è la numero <NUM> <*> <NUM> <*> <NUM>
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| sono <PER> ||| io sono <PER> <PER> <PER> di il settore edilizia e <ORG> <ORG> <LOC> <LOC> <NUM>
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| io ho un problema che riguarda il cavo di rete ||| no non mi dà la connessione
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| no non mi dà la connessione ||| perchè è a penzoloni
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| è a penzoloni ||| si è scollegato
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| è scollegato ||| è proprio da cambiare
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| è proprio da cambiare ||| perchè lo spinotto non c' è più attaccato a il <*> cavo
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| non so io bene come spiegar le ||| però come è a penzoloni
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| come è a penzoloni ||| cioè una cosa pare che si sia come <*> staccato
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| dovrebbe far mi questa verifica però cortesemente ||| dovrebbe guardare a i capi di questo cavo se c' è ancora lo lo spinotto quello trasparente
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| c' è c' è c' è prima di <*> c' è c' è c' è prima di chiamar la ||| anzi <*> io ho una richiesta
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| io ho una richiesta ||| perchè avevo già precedente telefonato due volte <*> recentemente
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| avevo già chiamato prima ||| ma non so dir le bene <*> quando
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| dovrebbe essere la <NUM> ||| poi la guardiamo quella lì
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| io ho di i problemi ||| in il senso che <*> in il senso che il mio computer non si accende
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| il mio computer non si accende ||| non si spegne
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| io ho di i problemi ||| cioè <*> temo che possa <*> temo che possa deteriorasi di più
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| il suo PC ha la presa di la torretta dati che è usurato ||| ed è rotto
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| l' utente segnala che il suo PC ha la presa di la torretta dati che è usurato ed è rotto quindi ||| è questo il problema
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| è questo il problema ||| lo stesso problema che mi sta segnalando adesso fondamentalmente
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| io adesso non so usare i vostri <*> io adesso non so usare i vostri termini me tecnici ||| comunque so che è un cavo di rete che non dà la connessione
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| è un cavo di rete che non dà la connessione ||| ed è a penzoloni
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| peraltro è venuto <*> peraltro è venuto casualmente il nostro tecnico per guardare altre cose ||| e io oggi l' ho fatto vedere pensando che loro potessero cambiar me
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io oggi l' ho fatto vedere pensando che loro potessero cambiar me ||| e mi han detto questo va cambiato subito
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| questo va cambiato subito ||| però non siamo noi
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non siamo noi ||| rivolgete vi a il <ORG>
+['Temporal', 'Temporal.Synchrony', 'and'] ||| [None, None, None] ||| ieri <*> l' altro ieri era venuto un vostro tecnico per da il mio collega per aggiustar gli il computer ||| gli ho parlato di questo
+['Temporal', 'Temporal.Synchrony', 'and'] ||| [None, None, None] ||| gli ho parlato di questo ||| gliel' ho fatto vedere
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| gliel' ho fatto vedere ||| e <*> mi ha detto sì guardi chiami il <ORG>
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| gliel' ho fatto vedere <*> infatti ||| mi ha detto sì guardi chiami il <ORG>
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| chiami il <ORG> ||| perchè in effetti lei poi rischia di ri di rimanere senza appunto questa connessione
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| in effetti lei poi rischia di ri di rimanere senza appunto questa connessione ||| perchè il cavo proprio va cambiato
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| praticamente è un problema di la torretta signora di la torretta di rete ||| ma <*> più che torretta è il filo
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| più che torretta è il filo è ||| il filo signora è integro
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| il filo signora è integro ||| cioè <*> è intero
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| il filo signora è integro ||| in il senso è intero
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| è intero ||| c' ha questi due spinotti a i lati
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| c' ha questi due spinotti a i lati ||| è solo scollegato
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| ha provato a ricollegar lo semplicemente a il computer ||| e non si collega
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| quando <*> quello spinotto è proprio non si inserisce bene ||| io inserisco quello <*> io inserisco quello spinotto a la a la torretta
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| quello spinotto è proprio non si inserisce bene ||| non fa gli scattino
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| è staccato <*> è staccato da il da il cavo ||| cioè <*> non è collegato a il a il filo
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| la spina è scollegata da il filo ||| perchè in la torretta <*> perchè in la torretta ci entra se io insisto
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| ci entra ||| ma è scollegato il filo
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| è scollegato il filo quindi ||| tempo che ne so mezz' ora un' ora mi fa di nuovo mi ripete lo stesso scherzo
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| tempo che ne so mezz' ora un' ora mi fa di nuovo mi ripete lo stesso scherzo allora ||| devo aspettare che tutto peggiori
+['Expansion', 'Expansion.Alternative', 'and'] ||| [None, None, None] ||| questa richiesta che questa segnalazione che me lei mi sta facendo è una cosa nuova ||| o è collegata a quella di l' altra richiesta
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| sollecito soltanto l' altra ||| allora le faccio <*> allora le faccio solo un sollecito per quella
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| le faccio <*> le faccio solo un sollecito per quella ||| perchè devono intervenire
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| devono intervenire ||| deve intervenire <ORG> <*> deve intervenire <ORG> a verificare questa torretta di rete
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| qualcuno viene <*> qualcuno viene in il frattempo ||| adesso le invio <*> adesso le invio una mail di sollecito
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| loro hanno anche i cavi di rete quindi ||| lo forniscono loro
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| la richiesta quella che lei mi ha dato è corretta ||| è aperta
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| è aperta ||| è stata gestita
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| io preciso soltanto l' urgenza ||| perchè poi <*> perchè poi da metà <MM> io sono <*> perchè poi da metà <MM> io sono via per un certo periodo
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| poi <*> da metà <MM> io sono <*> da metà <MM> io sono via per un certo periodo ||| e poi qui mi spiace dover lasciare la cosa così per chi viene poverino
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io le ho <*> io le ho fatto una mail di sollecito a la al a <ORG> ||| adesso segnalo la richiesta
+['Expansion', 'Expansion.Restatement', 'and'] ||| [None, None, None] ||| segnalo la richiesta ||| la segnalazione la faccio a la mia responsabile
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| la segnalazione la faccio a la mia responsabile ||| vediamo di far contattare <ORG> anche diversamente
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| io la ricontatto ||| e glie lo dico
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| io non conosco bene i termini tecnici ||| però di questo questo piccola cosa mi rendo conto <*> però di questo questo piccola cosa mi rendo conto che l' è così
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| non si preoccupi ||| adesso la sollecitiamo
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| adesso la sollecitiamo ||| e la mandiamo avanti
