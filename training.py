@@ -100,6 +100,7 @@ def train(args, model, train_loader, dev_loader, test_loader):
         if flag:
             break
 
+        torch.save(model.state_dict(), args.save_file + args.model_name_or_path.split('/')[-1] + '.ckpt')
         time_dif = get_time_dif(start_time)
         lgg.info("Train time usage: {}".format(time_dif))
         acc_top_test, f1_top_test, acc_sec_test, f1_sec_test, acc_conn_test, f1_conn_test \
@@ -226,27 +227,26 @@ def evaluate(args, model, data_loader, test=False):
     f1_conn = metrics.f1_score(gold_sense_conn, predict_sense_conn, average='macro')
 
     if test:
-        report_top = metrics.classification_report(gold_sense_top, predict_sense_top, target_names=args.i2top, digits=4)
+        report_top = metrics.classification_report(gold_sense_top, predict_sense_top, labels=list(set(gold_sense_top)), target_names=args.i2top, digits=4)
         confusion_top = metrics.confusion_matrix(gold_sense_top, predict_sense_top)
-
-        report_sec = metrics.classification_report(gold_sense_sec, predict_sense_sec, target_names=args.i2sec, digits=4)
+        report_sec = metrics.classification_report(gold_sense_sec, predict_sense_sec, labels=list(set(gold_sense_sec)), target_names=args.i2sec, digits=4)
         confusion_sec = metrics.confusion_matrix(gold_sense_sec, predict_sense_sec)
         
         #######################################################################################
         consistency_top_sec = 0
-        for i in range(cut_off):
+        for i in range(min(cut_off, len(gold_sense_top), len(gold_sense_sec))):
             if gold_sense_top[i] == predict_sense_top[i] and gold_sense_sec[i] == predict_sense_sec[i]:
                 consistency_top_sec += 1
         consistency_top_sec = consistency_top_sec / cut_off
         
         consistency_sec_conn = 0
-        for i in range(cut_off):
+        for i in range(min(cut_off, len(gold_sense_sec), len(gold_sense_conn))):
             if gold_sense_sec[i] == predict_sense_sec[i] and gold_sense_conn[i] == predict_sense_conn[i]:
                 consistency_sec_conn += 1
         consistency_sec_conn = consistency_sec_conn / cut_off
         
         consistency_top_sec_conn = 0
-        for i in range(cut_off):
+        for i in range(min(cut_off, len(gold_sense_top), len(gold_sense_sec))):
             if gold_sense_top[i] == predict_sense_top[i] and gold_sense_sec[i] == predict_sense_sec[i] and gold_sense_conn[i] == predict_sense_conn[i]:
                 consistency_top_sec_conn += 1
         consistency_top_sec_conn = consistency_top_sec_conn / cut_off
