@@ -1,0 +1,41 @@
+python3.10 run.py --data_file ita.pdtb.luna/data --log_file ita.pdtb.luna/log --save_file ita.pdtb.luna/saved_dict --model_name_or_path xlm-roberta-base
+
+
+Results:
+
+Epoch [15/15]
+Train time usage: 23.861607551574707
+Test time usage: 0.5899560451507568
+TOP: Test Loss:   2.4,  Test Acc: 63.01%, Test F1: 63.71%
+SEC: Test Loss:   2.4,  Test Acc: 53.42%, Test F1: 32.73%
+CONN: Test Loss:   2.4,  Test Acc: 100.00%, Test F1: 100.00%
+consistency_top_sec: 14.05%,  consistency_sec_conn: 15.01%, consistency_top_sec_conn: 14.05%
+              precision    recall  f1-score   support
+
+    Temporal     0.4915    0.5472    0.5179        53
+ Contingency     0.7564    0.6941    0.7239        85
+  Comparison     0.7111    0.7442    0.7273        43
+   Expansion     0.5818    0.5766    0.5792       111
+
+    accuracy                         0.6301       292
+   macro avg     0.6352    0.6405    0.6371       292
+weighted avg     0.6353    0.6301    0.6320       292
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.4225    0.6667    0.5172        45
+         Temporal.Synchrony     0.0000    0.0000    0.0000         8
+          Contingency.Cause     0.7222    0.7647    0.7429        85
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000        11
+        Comparison.Contrast     0.5208    0.7812    0.6250        32
+      Comparison.Concession     0.5200    0.4407    0.4771        59
+      Expansion.Conjunction     0.3030    0.2222    0.2564        45
+    Expansion.Instantiation     0.0000    0.0000    0.0000         7
+
+                   accuracy                         0.5342       292
+                  macro avg     0.3111    0.3594    0.3273       292
+               weighted avg     0.4842    0.5342    0.5004       292
+
+dev_best_acc_top: 68.45%,  dev_best_f1_top: 67.92%,
+dev_best_acc_sec: 54.17%,  dev_best_f1_sec: 28.47%,
+dev_best_acc_conn: 100.00%,  dev_best_f1_conn: 100.00%
