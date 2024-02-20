@@ -55,6 +55,9 @@ def convert(relfile):
         sense_list = [toplevel, seclevel, 'and']
         arg1 = row['unit1_txt']
         arg2 = row['unit2_txt']
+        if row['dir'] == '1>2':
+            arg1 = row['unit2_txt']
+            arg2 = row['unit1_txt']
         outline = ' ||| '.join([str(sense_list), str([None, None, None]), arg1, arg2])
         if toplevel in top and seclevel in sec:
             outlines.append(outline)
@@ -63,6 +66,9 @@ def convert(relfile):
         
 
 def main():
+    if len(sys.argv) < 3:
+        print('Usage: python %s <input_folder_with_disrpt_rels_files> <output_folder>' % sys.argv[0])
+        sys.exit()
     folder = sys.argv[1] # folder with disrpt data, e.g. https://github.com/disrpt/sharedtask2023/tree/main/data/ita.pdtb.luna
     outfolder = sys.argv[2]
     process(folder, outfolder)
