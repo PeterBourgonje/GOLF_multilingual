@@ -50,17 +50,18 @@ def convert(relfile):
     outlines = []
     for row in rows:
         sense = row['label']
-        toplevel = sense.split('.')[0]
-        seclevel = '.'.join(sense.split('.')[:2])
-        sense_list = [toplevel, seclevel, 'and']
-        arg1 = row['unit1_txt']
-        arg2 = row['unit2_txt']
-        if row['dir'] == '1>2':
-            arg1 = row['unit2_txt']
-            arg2 = row['unit1_txt']
-        outline = ' ||| '.join([str(sense_list), str([None, None, None]), arg1, arg2])
-        if toplevel in top and seclevel in sec:
-            outlines.append(outline)
+        if sense:
+            toplevel = sense.split('.')[0]
+            seclevel = '.'.join(sense.split('.')[:2])
+            sense_list = [toplevel, seclevel, 'and']
+            arg1 = row['unit1_txt']
+            arg2 = row['unit2_txt']
+            if row['dir'] == '1>2':
+                arg1 = row['unit2_txt']
+                arg2 = row['unit1_txt']
+            outline = ' ||| '.join([str(sense_list), str([None, None, None]), arg1, arg2])
+            if toplevel in top and seclevel in sec:
+                outlines.append(outline)
     
     return outlines
         
