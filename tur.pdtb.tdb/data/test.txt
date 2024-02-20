@@ -1,0 +1,268 @@
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Dışa karşı güçlü ydü , ||| ama içe , kendi yüreğine yıkılmak üzere ydi .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Vazgeçmek kolay dı , ertelemek de . ||| Ama tırmanmaya başlandı mı bitirilmeli !
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Ama tırmanmaya başlandı mı bitirilmeli ! ||| Çünkü her seferinde acımasız bir geriye dönüş vardı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Çünkü her seferinde acımasız bir geriye dönüş vardı . ||| Bıraktığın her sefer bir başlangıca gebe ydi .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Bir aşsaydım bu duvarı benim olacaktın , kucaklayacaktın beni . ||| Kırgınlıkların , korkuların eriyip gidecekti , hepsi benim olacak , bana geçecekti .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Ben kıvranacaktım , ben acı çekip işkencelere gönüllü katlanacaktım senin yerine , sen bilmeden . ||| Kırgınlıkların , korkuların eriyip gidecekti , hepsi benim olacak , bana geçecekti .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| acı çekip ||| işkencelere gönüllü katlanacaktım
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Benim yüreğim de duvar taşıyordu . ||| Aşmaya yeltenen olmadı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Ben bu duvarı taşıyan birçok insan gördüm ve aşmaya değil yıkmaya çalıştım ; ||| ama ne ben haberdardım bu duvarın yıkılamayacağından ne de duvarı taşıyan haberdardı bu duvarı taşıdığından .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| bu duvarı taşıyan birçok insan gördüm ||| ve aşmaya değil yıkmaya çalıştım ;
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| ama ne ben haberdardım bu duvarın yıkılamayacağından ||| ne de duvarı taşıyan haberdardı bu duvarı taşıdığından .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Sen de haberdar değildin ||| ve ben hayatımda ilk kez yıkmaya değil aşmaya çalışıyordum .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Sen de haberdar değildin ve ben hayatımda ilk kez yıkmaya değil aşmaya çalışıyordum . ||| İzin vermiyor , engeller koyuyordun .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Yaralanıyordum tırmanırken , kanıyordum . ||| Dikenli tellerle çeviriyordun bu duvarı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Yaralanıyordum tırmanırken , kanıyordum . Kırılıyordum , acıyordum , ||| ama bırakmıyordum .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Gülümsüyordun . ||| Ellerimi bacaklarına koyduğumda sanki yeniden büyük bir ağacın en üst dalından düşmüştüm .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Sanki lunaparklarda insanın içini ürperten dev oyuncaklardan birisinin en tepesinde ydim . ||| Işıklar yanıp sönüyor , yüksek tonda sevmediğim bir müzik çalıyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| En çabuk nasıl gidebilirdim ? ||| Nasıl hızla uzaklaşabilirdim ?
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Ya da koşmak , kaçmak çare miydi kurtulmaya ? ||| Kendinden ne kadar uzaklaşabilir ki insan ?
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Kendinden ne kadar uzaklaşabilir ki insan ? ||| Nereye gidebilir yaşadıklarını bırakıp ?
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Nereye gidebilir yaşadıklarını bırakıp ? ||| İhanet edebilir mi yaşadıklarına ya da yüz üstü bırakabilir mi geleceğini ?
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| İhanet edebilir mi yaşadıklarına ya da yüz üstü bırakabilir mi geleceğini ? ||| Her yere kendisiyle birlikte taşımaz mı içinde ki o sinsi acıları ?
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Her yere kendisiyle birlikte taşımaz mı içinde ki o sinsi acıları ? ||| Korkmaz mı yalnız ken , terk etmişken ya da terk edilmişken ?
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Ellerimi bacaklarından çektim . ||| Bu ben değildim .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Bu ben değildim . ||| Ben yere bakmazdım .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Gözüne gözüne bakardım insanların . ||| Kızgınken korkarlardı , çekinirlerdi benden .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Gözlerine bakamazdım ben insanların . ||| Korkaktım ben .
+['Expansion', 'Expansion.Instantiation', 'and'] ||| [None, None, None] ||| Kızınca bir çocuk kadar bile olamazdım . ||| Bir tenekeye tekme atamazdım mesela .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Kaçamazdım sonra . ||| Bir tenekeye tekme atamazdım mesela .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Kaçarken sövemezdim beni kızdıran insanların anasına avradına . ||| Koşamazdım uzaklara doğru .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Bağıramazdım koşarken , derin soluyamazdım , terleyemezdim damla damla . ||| Ben kızgınken sakin sakin yere bakardım , susardım , soluğum bile duyulmazdı .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Ben kızgınken sakin sakin yere bakardım , susardım , soluğum bile duyulmazdı . ||| Ben kızgınken tam önüme bakardım aslında , senin gözlerine değil .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| kızgınken ||| sakin sakin yere bakardım ,
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Korkularını , benim bedenimde hayat bulan karabasanları istemiyordun . ||| Her gelişinde bacaklarına dokunmaya yeltenen bu adamı istemiyordun artık .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Her gelişinde bacaklarına dokunmaya yeltenen bu adamı istemiyordun artık . ||| Dudaklarına aç bir yaban hayvanı gibi uzanan dudaklarımı istemiyordun .
+['Expansion', 'Expansion.Instantiation', 'and'] ||| [None, None, None] ||| Dudaklarına aç bir yaban hayvanı gibi uzanan dudaklarımı istemiyordun . ||| En basiti , birlikte dolaşmak bile ıstıraptı senin için .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Konuşmuyordun . ||| Konuşmuyordum .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Ellerimi ansızın çekip sandalyemi uzaklaştırdım senden . ||| Konuşmuyordum .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Ellerimi ansızın çekip ||| sandalyemi uzaklaştırdım senden .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Utanmıştım . ||| Ellerimi ansızın çekip sandalyemi uzaklaştırdım senden .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| yaşama amacı haline gelmişti , ||| ama içinde bulunduğu ortamda bunu başarabilmesi neredeyse olanaksız dı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Çareler düşünüyor , bulamıyordu . ||| Artık bir şey çizemez olmuştu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| İlla ki kadın bedeninin gizemi olmalıydı gözlerinin önünde ||| ve tabloya yalnızca bu aktarılmalıydı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Altı ay önce bitirdiği bir resmi uzun süre dayanması ve renklerini koruması için ||| verniklediği
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| uzun süre dayanması ||| ve renklerini koruması
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ve renklerini koruması için verniklediği bir gece ansızın bir tekme savurarak ||| üst kata çıktı .
+['Expansion', 'Expansion.Instantiation', 'and'] ||| [None, None, None] ||| Hiçbir tablosu değerli değildi onun için . ||| Çocukları gibi sevdiği resimlerine kolayca tekme atabiliyordu artık .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Onun ölümünden beri ||| ilk kez girdiği
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Onun ölümünden beri ilk kez girdiği bu odayı ağır bir koku kaplamıştı . ||| Küf kokusunu andıran bu havayı içine çekmemek için soluğunu tuttu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Padişahın , babasına hediye ettiği hançeri duvardan alarak ||| dışarı fırladı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Odadan çıkar çıkmaz derin soluk alıp dinlendi . ||| Padişahın , babasına hediye ettiği hançeri duvardan alarak dışarı fırladı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Ağır ağır merdivenleri indi . ||| Odadan çıkar çıkmaz derin soluk alıp dinlendi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Dışarı çıktı . ||| Ağır ağır merdivenleri indi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Sokağın başına kadar yürüdü . ||| Dışarı çıktı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Sokağın başına kadar yürüdü . ||| Birden koşmaya başladı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Bu geç vakitte bile ortalıkta dolaşanlar vardı , ||| ama Halil'le ilgilenmiyorlardı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| sonra da yollarına devam ediyorlardı . ||| Bu koşan adamın arkasından öylesine bakıyorlar ,
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| epeyce koştuktan sonra ||| yüksekçe bir duvardan atlayarak mahallenin dışında ki kadınlar hamamının bahçesine girdi .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| havlamaya başlamışlardı . ||| bahçenin öbür tarafında olmalarına rağmen
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Zincirleri çözülmemişti , ||| ama her an koparabilirlerdi .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Halil terasa çıkmasını sağlayacak demir merdivene yöneldi hızla . ||| Basamakları tırmanırken ayağı kaydı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Dizini bir üst basamağın köşesine çarptı . ||| Basamakları tırmanırken ayağı kaydı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Büyük bir acıyla inlemeye başladı . ||| Dizini bir üst basamağın köşesine çarptı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Büyük bir acıyla inlemeye başladı . ||| Neredeyse sürünerek terasa çıkmayı başardı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Neredeyse sürünerek terasa çıkmayı başardı . ||| Bir süre olduğu yerde kıvrandı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Dizinin acısı hafifleyince karanlığa yeni yeni alışan gözlerini açtı . ||| Bir süre olduğu yerde kıvrandı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| karanlığa yeni yeni alışan gözlerini açtı . ||| Dizinin acısı hafifleyince
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Köşede duran eski , kırık kurnaları ve tuvalet taşlarını görünce ||| hemen işe girişti .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Kuşku uyandırmamak amacıyla eski hallerini de pek bozmadan , kolay kolay fark edilemeyecek güvenli bir köşe oluşturdu . ||| Bunları ses çıkarmamaya çalışarak düzenledi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| günde iki kez terasa çıkarak ||| havlu ve peştamalları asıyor , topluyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Sabah çok erken saatte bir önce ki akşam gün batmadan hemen önce ||| astığı
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Sabah çok erken saatte bir önce ki akşam gün batmadan hemen önce astığı çamaşırları toplamaya çıkıyordu ||| ve doğal olarak da gün batmadan o gün kü çamaşırları asmak için geliyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Halil , kadın çamaşırları astıktan sonra bekliyor ve hava kararınca terasa çıkıyordu . ||| Gün ağarana dek uğraşıyor ve kadın terasa çıkmadan önce kaçıyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| kadın çamaşırları astıktan sonra ||| bekliyor
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| kadın çamaşırları astıktan sonra bekliyor ||| ve hava kararınca terasa çıkıyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ve hava kararınca ||| terasa çıkıyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Gün ağarana dek uğraşıyor ||| ve kadın terasa çıkmadan önce kaçıyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Haftalarca uğraştıktan sonra terastan hamama uzanan bir delik açmayı başardı . ||| Gün ağarana dek uğraşıyor ve kadın terasa çıkmadan önce kaçıyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ve kadın terasa çıkmadan önce ||| kaçıyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Haftalarca uğraştıktan sonra ||| terastan hamama uzanan bir delik açmayı başardı .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Haftalarca uğraştıktan sonra terastan hamama uzanan bir delik açmayı başardı . ||| Bunu yaparken de paha biçilmez padişah hediyesini hurdaya çıkardı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Artık gündüzleri terasta kalmak zorunda ydı , ||| çünkü hamam gündüzleri açıktı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Dikkat çekmemek için geceden gidip terasa gizleniyordu . ||| Artık gündüzleri terasta kalmak zorunda ydı , çünkü hamam gündüzleri açıktı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Dikkat çekmemek için geceden gidip ||| terasa gizleniyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Dikkat çekmemek için geceden gidip terasa gizleniyordu . ||| Hamamcı kadın geldiğinde iyice kıvrılarak köşede soluğunu tutuyordu .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Hamamcı kadın geldiğinde iyice kıvrılarak köşede soluğunu tutuyordu . ||| Zaten kadın akşamdan astığı çamaşırları aceleyle topluyor ve çevresine hiç bakmadan hemen gidiyordu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Halil'i görmesi olanaksız dı . ||| Zaten kadın akşamdan astığı çamaşırları aceleyle topluyor ve çevresine hiç bakmadan hemen gidiyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| akşamdan astığı çamaşırları aceleyle topluyor ||| ve çevresine hiç bakmadan hemen gidiyordu .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Açtığı delikten haftalarca yıkanan kadınları gözetledi , ||| ama koca memeli ve yağlı kadınlardan başka pek bir şey göremiyordu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Açtığı delikten haftalarca yıkanan kadınları gözetledi , ama koca memeli ve yağlı kadınlardan başka pek bir şey göremiyordu . ||| Zaten açtığı delik umumi kısma denk geliyordu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Bu Halil'e yeterli malzemeyi veremiyordu . ||| Kadınlar oldukça kapalıydılar .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Hususi banyolar diğer köşede olmalıydı . ||| Yine bir yanlış lık yapmamak için içeriye girip hususi banyoların tam yerini öğrenmeliydi .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Yine bir yanlış lık yapmamak için içeriye girip ||| hususi banyoların tam yerini öğrenmeliydi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Çarşıdan satın aldığı çarşaflarla geceden giderek ||| terasa saklandı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Sabah kadınlar gelmeye başlayınca çarşafları giyerek terastan indi . ||| Çarşıdan satın aldığı çarşaflarla geceden giderek terasa saklandı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Kimseye belli etmeden duvardan dışarı atladı . ||| Sabah kadınlar gelmeye başlayınca çarşafları giyerek terastan indi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| çarşafları giyerek ||| terastan indi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Hamamın girişine yöneldi . ||| Kimseye belli etmeden duvardan dışarı atladı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Parasını ödedi . ||| Hamamın girişine yöneldi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Peştamal ; havlu ve takunyasını hamamcı kadından alarak hususi banyoların yerini sordu oldukça incelttiği sesiyle . ||| Parasını ödedi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Peştamal ; havlu ve takunyasını hamamcı kadından alarak ||| hususi banyoların yerini sordu oldukça incelttiği sesiyle .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Sonra duvara sırtını verdi ve adımlayarak yukarıdan deliği açacağı yeri hesapladı . ||| Önce biraz oturdu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Sonra duvara sırtını verdi ||| ve adımlayarak yukarıdan deliği açacağı yeri hesapladı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Biraz daha bekledi . ||| Dikkat çekici bir yerde olmamalıydı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Peştamalı ve havluyu ıslatarak banyodan çıktı . ||| Biraz daha bekledi .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Peştamalı ve havluyu ıslatarak ||| banyodan çıktı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Peştamalı ve havluyu ıslatarak banyodan çıktı . |||  Ne çabuk ?  dedi hamamcı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Acele hareketlerle malzemeleri teslim ederek ||| çıktı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Acele hareketlerle malzemeleri teslim ederek çıktı . ||| Hamamcı ıslak peştamal ve havluyu sepete atarken takunyaların nasıl kuru kaldığına şaşırdı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Bunların altında ki delik en az öbürü kadar güvenliydi . ||| Deliği açtığı yerde de eski takunyalar yığılıydı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Gündüzleri hususi banyolara giren kadınları gözetlemekle geçiyordu . ||| Yine istediği kişiyi bir türlü görememişti ,
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Yine istediği kişiyi bir türlü görememişti , ||| ama aylarca sabrettikten sonra gözetlediği bir kadın soluğunu daralttı , tüyleri diken diken oldu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ama aylarca sabrettikten sonra ||| gözetlediği bir kadın soluğunu daralttı , tüyleri diken diken oldu .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Durup dururken titremeye başladı . ||| Kadının yüzünü beynine kazıdı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ama sonunda kadın peştamalını çıkartmaya başlamıştı . ||| Peştamalını çıkartmasını bekliyordu . Halil işkencede ydi ,
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| işkencede ydi , ||| ama sonunda kadın peştamalını çıkartmaya başlamıştı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| ama sonunda kadın peştamalını çıkartmaya başlamıştı . ||| Ancak , ay lardır çamaşır saatlerinde değişiklik yapmayan hamamcı , inanılmaz bir şekilde terasa çıkıyordu . Ayağında ki takunyaların sesi duyulmasa Halil az daha yakalanacaktı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Zihninde canlanan güzel yüzün altına çıplak bir beden hayal edip resmedemiyordu . ||| Geceler boyu bir yerlerden yüzünü hatırladığı bu kadının kim olduğunu bulmaya çalıştı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Delirmek üzere ydi . ||| Zihninde canlanan güzel yüzün altına çıplak bir beden hayal edip resmedemiyordu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| hayal edip ||| resmedemiyordu .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Bir kez daha gelir umuduyla hususi banyonun üzerinde ki deliğin başında günlerce bekledi , ||| ama kadını bir daha göremedi .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Halil her gün şarap satın almaya gidiyor , bu bahaneyle de tek dostu olan Ante'yle konuşuyordu . ||| Ante bu genç ressamın her sırrını biliyor ve onu çok iyi anlıyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| bu genç ressamın her sırrını biliyor ||| ve onu çok iyi anlıyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Hayal etme gücünü kaybetmemesini söyleyerek ||| sürekli resim çizmesini telkin ediyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| çok yaşlı bir adam dı ||| ve kendisine kızı yardımcı oluyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| bir gün yine saatlerce meyhanenin mahzeninde Ante ile içip dertleştikten sonra ||| ağır ağır nakışçıya yürüdü .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Ante hasta ydı ||| ve bu hastalığı onu sevdiği kızı elde etmekten alıkoyuyordu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| ve bu hastalığı onu sevdiği kızı elde etmekten alıkoyuyordu . ||| Meyhanesinden dışarı çıkamıyordu .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Nakışçıya girerken , " Hiç olmazsa ben sokaklarda gezinebiliyorum , " diye mırıldandı . ||| Yaşlı adamı göremedi .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Yaşlı adamı göremedi . ||| Dükkânın sonunda adamın kızı bir müşteriye oya örnekleri gösteriyordu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Halil'in geldiğini fark etmediler . ||| Dükkânın sonunda adamın kızı bir müşteriye oya örnekleri gösteriyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Tezgâhın arkasına girerek ||| kadınların olduğu tarafa dolandı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Başka kimse olmadığından ||| iki kadının da yüzü açıktı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Başka kimse olmadığından iki kadının da yüzü açıktı . ||| Halil onları korkutacağı yere geldiğinde donakaldı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Halil onları korkutacağı yere geldiğinde donakaldı . ||| Elleri , ayakları titremeye başladı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Elleri , ayakları titremeye başladı . ||| Terasta ki delikten gördüğü kadın karşısında ydı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Eğer o büyük yangın çıkmamış olsaydı ||| ve Halil'in babası bir - iki gün daha yaşasaydı ,
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| çocukluğunu birlikte geçirdiği bu kızı gençliğe adım attıktan sonra ||| hiç görmemişti .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Artık biliyordu en azından , aradığı kişi Peride 'ydi . ||| Evine doğru deli gibi koşarken amacına biraz daha yaklaşmanın sevincini yaşıyordu .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Bir yanım senden nefret ediyor , kin kusuyor , anılarını , yaşattıklarını , hatta varlığını yadsıyor ; ||| bir yanım seni çok seviyor , kucaklıyor , kurmaca odalarda , kurmaca müzikler eşliğinde seninle dans ediyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Yokluğunda seni yadsıyan yanım öbürüne yenik düşüyordu ||| ve geçmişe ait imlerden yararlanarak seni yaratıyordum yanı başımda .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Yokluğunda seni yadsıyan yanım öbürüne yenik düşüyordu ve geçmişe ait imlerden yararlanarak seni yaratıyordum yanı başımda . ||| Seninle konuşuyor , dans ediyor , sevişiyordum .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Kapım çalındığında karşımda duran yüzü hatırlamaya çalışıyordum , ||| ama öyle zorlanıyordum ki ,
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| ama öyle zorlanıyordum ki , ||| eski dostum adını ve nerede tanıştığımızı söylemek zorunda kalıyordu .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| ora lı olmuyordum . ||| Benim için çok utandırıcı bir durum olmasına rağmen
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Benim için çok utandırıcı bir durum olmasına rağmen ora lı olmuyordum . ||| Benim hatırlamayışımdan dostum utanacak hale geliyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Sohbete başlayınca doğal olarak geçmişten , ortak anılardan konuşuyorduk . ||| Hepsi sakatlığımı anımsatacak kelimelerden özenle kaçınıyordu .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Hepsi sakatlığımı anımsatacak kelimelerden özenle kaçınıyordu . ||| Ben de özenle sakatlığımı anımsatacak cümleler kuruyordum geçmişe ilişkin görüntüleri hatırlatarak .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Büyük bir zevkle karşımdakinin duyduğu huzursuzluğu hissediyordum . ||| Ben de özenle sakatlığımı anımsatacak cümleler kuruyordum geçmişe ilişkin görüntüleri hatırlatarak .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Benim yerime içi burkuluyordu . ||| Üzerine gittikçe sinirleniyor ve bir daha asla kapımı çalmayacağını düşünerek gitmeden önce bana öldürücü bir darbe vurup intikam almaya hazırlanıyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Üzerine gittikçe sinirleniyor ||| ve bir daha asla kapımı çalmayacağını düşünerek gitmeden önce bana öldürücü bir darbe vurup intikam almaya hazırlanıyordu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| ve bir daha asla kapımı çalmayacağını düşünerek ||| gitmeden önce bana öldürücü bir darbe vurup intikam almaya hazırlanıyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| bana öldürücü bir darbe vurup intikam almaya hazırlanıyordu . ||| gitmeden önce
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Nerede olduğunu bilmediğimi söylüyor ||| ve kestirip atıyordum
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Nerede olduğunu bilmediğimi söylüyor ve kestirip atıyordum ||| ama , eski dost ısrarla seni sormaya devam ediyordu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Orada öylece oturup sevgili eski dostumun acımasız intikamına malzeme oluyordum . ||| Gitmek , kaçmak isteyen bedenime tutmayan iki bacak engel oluyordu .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Senin nerede olduğunu bildiğini söylüyor ve hatta tam adresini bile veriyordu . ||| Bu adreste seni bulamayacağımı da ekliyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Bu adreste seni bulamayacağımı da ekliyordu . ||| Artık kendi evinde kalmadığını , son zamanlarda birlikte olduğun bir adamın evine taşındığını , istersem bu adresi de bulabileceğini söylüyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Artık kendi evinde kalmadığını , son zamanlarda birlikte olduğun bir adamın evine taşındığını , istersem bu adresi de bulabileceğini söylüyordu . ||| Yüzüme bakarak iğrenç bir gülümseyişle intikamını perçinliyor ve gidiyordu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ve gidiyordu . ||| Yüzüme bakarak iğrenç bir gülümseyişle intikamını perçinliyor
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Sabaha kadar titriyordum , susuyordum ( konuşmuyordum ) , susuyordum ( boğazım kuruyordu ) ||| Beni ağlatıyor , içimi kanatıyor , bilmediğim yerlerden tuhaf bir acı hissettiriyordu .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Sen bana anlatamıyordun . ||| Anlatmanı istemiyordum zaten .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Anlatmanı istemiyordum zaten . ||| 'Benim olmadığını ' senin sesinden duymak amaçsız bırakırdı beni .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Küçük bir umut kalmalıydı içimde en azından . ||| Ne olursa olsun yine gelmeli , yine yoklamalıydın beni .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Küçük bir umut kalmalıydı içimde en azından . ||| Heyecanla bir sonra ki gelişine hazırlanmalıydım .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Sen yine o adamla aynı yatağa girebilirdin her gece . ||| Düşsel yaşamımda ki ben , düşsel yaşamımda ki seninle zaten her gece sevişiyor olacaktı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Düşsel yaşamımda ki ben , düşsel yaşamımda ki seninle zaten her gece sevişiyor olacaktı . ||| Beni istemediğini söylemen " düşsel sen"i alırdı elimden .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Ben de parçası olduğum bu oyunu bozmadım . ||| Öyküye devam ettim .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Halil mahzende baktığı her yerde Peride'nin yüzünü görerek sabaha kadar oturdu . ||| Acıdan kıvrandı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Peride'nin yüzünü görerek ||| sabaha kadar oturdu .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Duvarları yumrukladı . ||| Resim çizmeye çalıştı , beceremedi .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Duvarları yumrukladı . ||| İçti , Ante'den aldığı tüm şarabı bitirdi .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| İçti , Ante'den aldığı tüm şarabı bitirdi . ||| Bağırdı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Bağırdı . ||| Gördüğünü sandığı böceklerden kaçtı bucak bucak .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Gördüğünü sandığı böceklerden kaçtı bucak bucak . ||| Adam öldürdüğünü sandı , öldürüldüğünü sonra .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| öldürüldüğünü sonra . ||| Adam öldürdüğünü sandı ,
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Kahve içince kendine gelebileceğini düşünerek ||| mahzenden çıktı .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Yukarıda , babasının odasında çuvallarla kahve vardı . ||| Kahve içince kendine gelebileceğini düşünerek mahzenden çıktı .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Odaya girer girmez büyük dolabı açtı . ||| Odada ki iğrenç kokudan kurtulmak için ağzını ve burnunu kapatacak biçimde bir eşarp bağladı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Odaya girer girmez büyük dolabı açtı . ||| Dolabın içinde ki çuvaldan bir avuç kahve aldı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Şimdi bir de bu kahveyi çekmesi gerekiyordu , ||| ama kahve değirmeninin nerede olduğunu bilmediği gibi bulacağını da sanmıyordu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Avucunda ki kahveyi odanın diğer köşesine savururken pencereye konan kelebeği fark etti . ||| Ağır ağır pencereye yürüdü .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Derken kelebek havalandı ve sokağın öbür ucuna doğru uçmaya başladı . ||| Ağır ağır pencereye yürüdü .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| havalandı ||| ve sokağın öbür ucuna doğru uçmaya başladı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Kelebeğin uçuşunu izlerken Peride'nin evden çıktığını gördü . ||| Görünmemek için hemen duvara yaslandı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Göğsü hızla inip kalkıyordu . ||| Elleri titremeye başladı .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| İlk dört basamağı tek adımda inebildi , ||| ama bastığı yerde bileği burkuldu .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Kalanların <*> ihale yöntemiyle satılacağı ifade edilen ||| prosedürlerin tamamlanmasının ardından
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Batık banka patronlarından tahsilata önem verildiği <*> borçlularla gönüllü ödeme yollarının arandığı , açılan davalarlar da hukuk mücadelesinin verildiği ||| Bankalarda hakim ortak statüsünde bulunan 68 kişi hakkında şahsi iflas davası açılırken , şu ana kadar sekiz iade tazmin davcası açıldı .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Bankalarda hakim ortak statüsünde bulunan 68 kişi hakkında şahsi iflas davası açılırken , şu ana kadar sekiz iade tazmin davcası açıldı . ||| Bu kişilere açılan davaların parasal tutarı ise 6 .1 milyar doları buluyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Biz koleksiyonumuzu kendimiz tasarlıyoruz , fabrikalara üretimini yaptırıyoruz . ||| İdil Tarzi markasının ne şekilde yoluna devam edeceği konusunda bir takım stratejiler belirlerken , bir karar aldık .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Dolayısıyla böyle bir işbirliği arayışına girdik . ||| Bu markanın gidişatı ancak çok ciddi boyutta işbirliğiyle olacaktır . Bir tasarımcının kendi maddi imkanlarıyla daha ileriye gidebilmesi tamamen bir ticaret konusu . İmalat , fiyat tutturma gibi konuların yanında toptan organizasyonu ve satış ekibine ihtiyacımız var .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Dolayısıyla böyle bir işbirliği arayışına girdik . ||| Trikoda görüşmelerim sürerken karşımıza ev tekstili ile ilgili yepyeni bir proje çıktı .
+['Expansion', 'Expansion.Instantiation', 'and'] ||| [None, None, None] ||| Denizli 'li Eke Tekstil ile yaptığımız görüşmeler sonucunda iki büyük markayı 1 kasımda beraber canlandırmaya karar verdik . ||| Bunlardan bir tanesi " Hamam " markası .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Önümüzde ki ocak ayında Heimtextil Fuarı'nda Hamam markasının ilk lansmanını gerçekleştireceğiz . ||| Ayrıca önümüzde ki günlerde " Hamam " ad lı mağazalar da açmayı planlıyoruz .
+['Expansion', 'Expansion.Instantiation', 'and'] ||| [None, None, None] ||| Tasarım olayların , kültürel değişimleri hissetmekten ibaret ki siz o insanları giydireceksiniz . ||| Ben şu anda 2004 yılını hazırlıyorum .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Dünya çok hızlı bir iletişim temposunun içine girdi . ||| Bu iletişim hepimizi çok yoruyor .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Herkes herşeyden anında haberdar . ||| Bu iletişim hepimizi çok yoruyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Herkes herşeyden anında haberdar . ||| Zamana karşı yarışıyoruz .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Önümüzde ki dönemde hepimiz hayatımıza biraz daha sevgiyi ve manevi değerleri sokmaya çalışacağız . ||| Kendimize vakit ayıracağız .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Kendimize vakit ayıracağız . ||| Yaşadığımız mekanlara vakit ayıracağız .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Yaşadığımız mekanlara vakit ayıracağız . ||| Buna yönelik çalışmalar yapıyorum .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Yaşadığımız mekanlara vakit ayıracağız . ||| Tasarımların özünde yaşam şekli rol oynuyor .
+['Expansion', 'Expansion.Instantiation', 'and'] ||| [None, None, None] ||| Tasarımların özünde yaşam şekli rol oynuyor . ||| Hayatından bezmiş insanlara hitap edeceğim .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Hayatından bezmiş insanlara hitap edeceğim . ||| Onların hayatını daha mutlu yapmak istiyorum .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Hamam markası sofistike , 40 yaş üstü ve B grubu üstüne hitap ederken , ||| İdil Tarzi daha trendy , dinamik , daha canlı bir koleksiyon olacak .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Hamam isim itibariyle güçlü ve net bir ifadesi var . ||| Oryantal bir isim ama ürünlerin çizgisi oryantal olmayacak .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Oryantal bir isim ||| ama ürünlerin çizgisi oryantal olmayacak .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Biz global bir marka olmasını hedefliyoruz . ||| Markanın felsefesi geçmişten izler taşıyan , seksi ve sade olacak .
+['Expansion', 'Expansion.Instantiation', 'and'] ||| [None, None, None] ||| Hamam'ın logosunda bir takım mesajlar vermeye çalıştık . ||| Hamam yazısının hemen altında eşcinselliği , heteroseksüelliği ifade eden dişi ve erkek formlardan oluşan akslar var .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Hamam yazısının hemen altında eşcinselliği , heteroseksüelliği ifade eden dişi ve erkek formlardan oluşan akslar var . ||| Ayrıca görme engelliler için de ürettiğimiz havluların kenarlarında , "braille alfabesiyle " hamam yazacak .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| AB'den tarih için tarih verilmesi beklentisi , fiyatlara bir miktar yansımış durumda . ||| Ancak , beklentinin gerçekleşmesi durumunda olumlu havanın sürmesi ve endeksin 1.10 sente doğru kademeli yükselmesi bekleniyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| beklentinin gerçekleşmesi durumunda olumlu havanın sürmesi ve endeksin 1.10 sente doğru kademeli yükselmesi bekleniyor . ||| Gerçekleşme olasılığı çok düşük olan , AB'den tam üyelik için müzakere tarihi çıkması durumunda ise borsada hayallerin sonu olmayacak .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| olumlu havanın sürmesi ||| ve endeksin 1.10 sente doğru kademeli yükselmesi
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Geçtiğimiz haftayı yüzde 1.49 düşüşle 13.300 seviyesinden tamamlayan İstanbul Borsası bu hafta takas avantajının kullanılması ile yukarı doğru bir hareket deneyebilir . ||| Faizde ki düşüş ve doların 1 milyon 525 liraya kadar gerilemesi de borsada umutları artırıyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Faizde ki düşüş ||| ve doların 1 milyon 525 liraya kadar gerilemesi
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| 12 Aralık öncesinde risk almak istemeyen yatırımcı portföyünü eşit bir şekilde bono , borsa , döviz ve likit enstrümanlar arasında dağıtabilir . ||| Risk alabilen yatırımcı ise portföyünde borsanın oranını yüzde 40'lara kadar yükseltebilir .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Eurobondlara gelen talebin etkisiyle içeride de bono faizlerinin gerilemesi dolara satış olarak yansıdı . ||| Yurt dışında özellikle yabancı müşterilerin , Türk tahvillerini satın alması ileriye yönelik beklentilerinin iyimser olduğunu gösteriyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Yurt dışında özellikle yabancı müşterilerin , Türk tahvillerini satın alması ileriye yönelik beklentilerinin iyimser olduğunu gösteriyor . ||| IMF'le başlayacak görüşmelerin seyri de endeksin kısa vade li yönünde etkili olacak .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| IMF'le başlayacak görüşmelerin seyri de endeksin kısa vade li yönünde etkili olacak . ||| Sadece serbest bırakılacak kredi dilimi için değil , 2003 yılında yapılacak olan borç servisinin de sorunsuz gerçekleştirilebilmesi için IMF'in desteğine ihtiyaç var .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| AB ile ilgili beklentilerin sonuçlanmasından sonra , ||| piyasalar hükümetin icraatlarına odaklanacak .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Geçtiğimiz hafta en fazla izlenen ||| ve oynaklığı ile baş döndüren
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Geçtiğimiz hafta en fazla izlenen ve oynaklığı ile baş döndüren hisselerden biri olan Yapı Kredi Bankası , 432 .3 trilyon TL zarar açıkladı . ||| 6 aylık bilançosunda 88 trilyon TL zarar açıklayan bankanın zararı katlandı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| bu hızlı artışın geçtiğimiz hafta yüzde 24 .44 değer kaybeden hisse senetlerine bir miktar daha olumsuz yansıyabileceğini ||| Ancak , bankanın yüksek zarar açıklaması beklenen bir gelişme olduğu için zaten çok gerileyen hissede aşağı yönlü bir hareket olması durumunda dahi bunun kısıt lı ve kısa süre li olması bekleniyor .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Ancak , bankanın yüksek zarar açıklaması beklenen bir gelişme olduğu için ||| zaten çok gerileyen hissede aşağı yönlü bir hareket olması durumunda dahi bunun kısıt lı ve kısa süre li olması bekleniyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Ancak , bankanın yüksek zarar açıklaması beklenen bir gelişme olduğu için zaten çok gerileyen hissede aşağı yönlü bir hareket olması durumunda dahi bunun kısıt lı ve kısa süre li olması bekleniyor . ||| Bankanın rekor zarar açıklamasında , 2.1 katrilyon liraya ulaşan takipte ki alacaklara ayrılan karşılık etkili oldu .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Bankanın rekor zarar açıklamasında , 2.1 katrilyon liraya ulaşan takipte ki alacaklara ayrılan karşılık etkili oldu . ||| Pamukbank'la ilgili olarak yaşanan gelişmeler ve bunun Yapı Kredi hisselerine olan etkisi nedeniyle faiz ve döviz cephesinde eki hızlı gerilemeye karşın borsada ki hareket sınır lı kaldığı belirtiliyor .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| borsada ki hareket sınır lı kaldığı ||| bunun Yapı Kredi hisselerine olan etkisi nedeniyle faiz ve döviz cephesinde eki hızlı gerilemeye karşın
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Eurobondlara bu kadar talebin geldiği faiz ve doların bu kadar hızlı düştüğü bir ortamda , borsanın çok fazla bu seviyelerde kalacağını sanmıyorum . ||| Türkiye'ye şartlı bir tarih verilmesini bekliyoruz .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| 2030 vade li eurobondun fiyatı 108 dolara geldi . ||| Piyasa Kopenhag'dan tarih için tarih alınması ihtimalinin kuvvetlendiğini düşünüyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Piyasa Kopenhag'dan tarih için tarih alınması ihtimalinin kuvvetlendiğini düşünüyor . ||| IMF'le yapılacak görüşmelerde de gerilim yaşanmayacağı kanısı hakim .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| IMF'le yapılacak görüşmelerde de gerilim yaşanmayacağı kanısı hakim . ||| İyimser beklentiler sürüyor ancak parayı tek enstrümana yatırmak riskli olabilir .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| İyimser beklentiler sürüyor ||| ancak parayı tek enstrümana yatırmak riskli olabilir .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| 12 Aralık'tan önce portföylerde hisse senedi oranı yüzde 40'a çıkabilir . ||| Yüzde 60'lık kısmı ise bono , repo ve likit enstrümanlar arasında dağıtabilir .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Yüzde 60'lık kısmı ise bono , repo ve likit enstrümanlar arasında dağıtabilir . ||| Borsada AB'den de bir sürpriz gelmez se 1 sentleri konuşmaya başlayacağız .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Sektörün lokomotifi B tipi yatırım fonları portföylerini Hazine bonosu ve devlet tahvili ile repo arasında paylaştırıyor . ||| A Tipi yatırım fonları ise portföylerinde hisse senedi oranlarını arttırmış görünüyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| A Tipi yatırım fonları ise portföylerinde hisse senedi oranlarını arttırmış görünüyor . ||| Fonların içeriği yatırımcının , yatırımlarını yönlendirirken beklenti ve risk düzeyine uygun fon seçimi yapabilmesi için önem li bir unsur .
+['Contingency', 'Contingency.Cause', 'and'] ||| [None, None, None] ||| Çünkü aynı türde yer alan iki farklı yatırım fonunun içeriği önem li farklılıklar gösterebiliyor . ||| Ancak bu tespitin ortalamalardan hareketle yapıldığının altını çizmek gerekiyor .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Aynı kategoride ki bir fon gayet agresif davranırken , ||| diğeri daha muhafazakar olabiliyor .
+['Expansion', 'Expansion.Instantiation', 'and'] ||| [None, None, None] ||| Aynı kategoride ki bir fon gayet agresif davranırken , diğeri daha muhafazakar olabiliyor . ||| Altta yer alan tabloda , her yatırım fonu türü kategorisinde portföylerde taşınan ortalama yatırım enstrümanı ağırlıklarını görebilmeniz mümkün .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Bu yolla yatırımcı hangi yatırım enstrümanına yatırım yapmak istediğini belirlemiş ve tercihini portföy yöneticisiyle de paylaşmış oluyor . ||| Fon yöneticisi de , kendisine tanınan sınırlar çerçevesinde ve yatırım fonunun karakterine bağlı kalarak görüş ve beklentileri doğrultusunda yatırım enstrümanlarında pozisyon alıyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| hangi yatırım enstrümanına yatırım yapmak istediğini belirlemiş ||| ve tercihini portföy yöneticisiyle de paylaşmış oluyor .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Fon yöneticisi de , kendisine tanınan sınırlar çerçevesinde ve yatırım fonunun karakterine bağlı kalarak görüş ve beklentileri doğrultusunda yatırım enstrümanlarında pozisyon alıyor . ||| Fonlarda , pozisyonların değişken piyasa koşullarında her gün ayarlandığını da unutmamak gerekiyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| kendisine tanınan sınırlar çerçevesinde ve yatırım fonunun karakterine bağlı kalarak ||| görüş ve beklentileri doğrultusunda yatırım enstrümanlarında pozisyon alıyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Fon piyasasının lokomotifi niteliğinde ki B tipi likit yatırım fonları ortalamada yüzde 47 oranında tahvil bono taşıyor . ||| Geriye kalan kısmın ise repo olduğu görülüyor .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Geriye kalan kısmın ise repo olduğu görülüyor . ||| Bu tür yatırım fonlarının kurallar gereği 90 günden kısa vade li Hazine bonosu ve devlet tahvili satın alabildiği unutulmamalı .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Bu tür yatırım fonlarının kurallar gereği 90 günden kısa vade li Hazine bonosu ve devlet tahvili satın alabildiği unutulmamalı . ||| Aynı yatırım fonu türü kategorisinde yer almalarına rağmen portföy içerisinde eki Hazine bonosu oranını yüzde sıfır düzeyinde tutan yatırım fonu bulunurken , Hazine bonosu oranı kimi yatırım fonunda yüzde 90'a kadar yükselebiliyor .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| portföy içerisinde eki Hazine bonosu oranını yüzde sıfır düzeyinde tutan yatırım fonu bulunurken , ||| Aynı yatırım fonu türü kategorisinde yer almalarına rağmen
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| Hazine bonosu oranı kimi yatırım fonunda yüzde 90'a kadar yükselebiliyor . ||| portföy içerisinde eki Hazine bonosu oranını yüzde sıfır düzeyinde tutan yatırım fonu bulunurken ,
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| B tipi tahvil bono fonlarında ise minimum yüzde 51 Hazine bonosu - devlet tahvili taşıma zorunluluğu bulunuyor . ||| Ortalamada bu tür yatırım fonlarının yüzde 71 oranında Hazine bonosu taşıdığı görülüyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Ortalamada bu tür yatırım fonlarının yüzde 71 oranında Hazine bonosu taşıdığı görülüyor . ||| Tür grubunda yer alan kimi yatırım fonları yüzde 50 minimum düzeyde yken bono oranını yüzde 100'lere kadar çıkartan yatırım fonları da görülebiliyor .
+['Comparison', 'Comparison.Concession', 'and'] ||| [None, None, None] ||| bono oranını yüzde 100'lere kadar çıkartan yatırım fonları da görülebiliyor . ||| Tür grubunda yer alan kimi yatırım fonları yüzde 50 minimum düzeyde yken
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Tür grubunda yer alan kimi yatırım fonları yüzde 50 minimum düzeyde yken bono oranını yüzde 100'lere kadar çıkartan yatırım fonları da görülebiliyor . ||| Yatırım fonu performanslarında etkin bir diğer unsur ise portföylerin oluşturulmasında kullanılan bono ve tahvillerin vade yapıları .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Hisse senedi ağırlık lı A tipi yatırım fonları pazarının lokomotifi A tipi değişken fonlar minimum yüzde 25 hisse senedi bulundurma koşulunu taşıyorlar . ||| Bu fonların ortalamada yüzde 49 oranında hisse senedi taşıdığı görülüyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Bu fonların ortalamada yüzde 49 oranında hisse senedi taşıdığı görülüyor . ||| Tür grubunda kimi yatırım fonu yüzde 25 'lik minimum hisse senedi oranında seyrederken hisse senedi oranını yüzde 90'ların üzerine taşıyan yatırım fonları da yok değil .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| Tür grubunda kimi yatırım fonu yüzde 25 'lik minimum hisse senedi oranında seyrederken ||| hisse senedi oranını yüzde 90'ların üzerine taşıyan yatırım fonları da yok değil .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Tür grubunda kimi yatırım fonu yüzde 25 'lik minimum hisse senedi oranında seyrederken hisse senedi oranını yüzde 90'ların üzerine taşıyan yatırım fonları da yok değil . ||| Bir diğer önem li grup A tipi hisse senedi yatırım fonlarında minimum yüzde 51 hisse senedi taşıma koşulu gerekiyor .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| Bir diğer önem li grup A tipi hisse senedi yatırım fonlarında minimum yüzde 51 hisse senedi taşıma koşulu gerekiyor . ||| A tipi hisse senedi ve A tipi sektör fonlarında borsanın payı yüzde 74'e yükselmiş durumda .
+['Expansion', 'Expansion.Conjunction', 'and'] ||| [None, None, None] ||| A tipi hisse senedi ve A tipi sektör fonlarında borsanın payı yüzde 74'e yükselmiş durumda . ||| Minimum maksimum dengesi ise yüzde 55 - yüzde 95 aralığında .
+['Comparison', 'Comparison.Contrast', 'and'] ||| [None, None, None] ||| seçim öncesinde bir partiden milletvekili aday adayı olarak gösterilen ||| ve seçilemeyen
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Cumhurbaşkanı onaylarsa , onay Resmi Gazete'de yayımlandıktan sonra ataması yapılan kişi yemin ederek göreve başlıyor . ||| BDDK'nın ikinci başkanı için atama , ilgili devlet bakanının önerisiyle Bakanlar Kurulu'ndan geçen bir kararname ile Cumhurbaşkanı'nın onayına sunuluyor .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| onay Resmi Gazete'de yayımlandıktan sonra ||| ataması yapılan kişi yemin ederek göreve başlıyor .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| ataması yapılan kişi yemin ederek ||| göreve başlıyor .
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| sonra da kamuoyuna açıklama yaptı . ||| önce hükümete brifing verdi ,
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Moldova'dan kadın getirtip ||| hasta emeklilerle evlendirenler
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| Moldova'dan eş getirtip ||| yaşlı emekli yakınlarla evlendirerek
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| yaşlı emekli yakınlarla evlendirerek ||| maaş bölüşme , gelini ile anlaşma lı evlilik yaparak , emekli maaşının oğluna , gelinine kalmasını sağlama
+['Temporal', 'Temporal.Asynchronous', 'and'] ||| [None, None, None] ||| gelini ile anlaşma lı evlilik yaparak , ||| emekli maaşının oğluna , gelinine kalmasını sağlama
