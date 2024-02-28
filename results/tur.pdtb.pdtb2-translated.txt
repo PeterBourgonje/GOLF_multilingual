@@ -1,0 +1,845 @@
+nohup: ignoring input and appending output to 'nohup.out'
+/home/VD/peterb/python/lib/python3.10/site-packages/torch_geometric/typing.py:47: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.29' not found (required by /local/home/VD/peterb/python/lib/python3.10/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/VD/peterb/python/lib/python3.10/site-packages/torch_geometric/typing.py:101: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.29' not found (required by /local/home/VD/peterb/python/lib/python3.10/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+{'cuda': 0, 'seed': 0, 'data_file': 'pdtb_tr/data/', 'log_file': 'pdtb_tr/log/', 'save_file': 'pdtb_tr/saved_dict/', 'model_name_or_path': 'xlm-roberta-base', 'freeze_bert': False, 'temperature': 0.1, 'num_co_attention_layer': 2, 'num_gcn_layer': 2, 'gcn_dropout': 0.1, 'label_embedding_size': 100, 'lambda_global': 0.1, 'lambda_local': 1.0, 'pad_size': 100, 'batch_size': 32, 'epoch': 15, 'lr': 1e-05, 'warmup_ratio': 0.05, 'evaluate_steps': 100, 'require_improvement': 10000, 'i2top': '', 'top2i': '', 'n_top': 4, 'i2sec': '', 'sec2i': '', 'n_sec': 11, 'i2conn': '', 'conn2i': '', 'n_conn': 102, 'label_num': 117, 'tokenizer': '', 'config': '', 't': 'February27-20:16:03', 'log': 'pdtb_tr/log/February27-20:16:03.log', 'device': device(type='cuda', index=0)}
+Loading data...
+0it [00:00, ?it/s]117it [00:00, 1166.51it/s]310it [00:00, 1610.41it/s]504it [00:00, 1758.46it/s]711it [00:00, 1879.47it/s]911it [00:00, 1922.21it/s]1104it [00:00, 1824.83it/s]1288it [00:00, 1826.96it/s]1479it [00:00, 1852.12it/s]1665it [00:00, 1754.34it/s]1844it [00:01, 1763.32it/s]2042it [00:01, 1825.06it/s]2226it [00:01, 1795.97it/s]2407it [00:01, 1750.56it/s]2585it [00:01, 1758.50it/s]2778it [00:01, 1807.19it/s]2963it [00:01, 1818.81it/s]3152it [00:01, 1837.77it/s]3337it [00:01, 1825.89it/s]3522it [00:01, 1830.44it/s]3706it [00:02, 1827.18it/s]3889it [00:02, 1798.40it/s]4084it [00:02, 1842.81it/s]4269it [00:02, 1799.50it/s]4450it [00:02, 1800.58it/s]4631it [00:02, 1788.49it/s]4819it [00:02, 1813.34it/s]5001it [00:02, 1806.62it/s]5185it [00:03, 1227.78it/s]5342it [00:03, 1302.71it/s]5538it [00:03, 1460.95it/s]5723it [00:03, 1558.24it/s]5909it [00:03, 1638.62it/s]6093it [00:03, 1692.92it/s]6280it [00:03, 1741.07it/s]6461it [00:03, 1724.31it/s]6638it [00:03, 1736.36it/s]6815it [00:03, 1741.28it/s]7006it [00:04, 1789.05it/s]7187it [00:04, 1770.37it/s]7375it [00:04, 1802.11it/s]7557it [00:04, 1798.51it/s]7741it [00:04, 1809.15it/s]7928it [00:04, 1826.88it/s]8112it [00:04, 1743.81it/s]8301it [00:04, 1784.39it/s]8481it [00:04, 1780.40it/s]8667it [00:04, 1803.01it/s]8850it [00:05, 1809.49it/s]9039it [00:05, 1831.50it/s]9225it [00:05, 1835.42it/s]9409it [00:05, 1814.16it/s]9601it [00:05, 1843.49it/s]9796it [00:05, 1872.89it/s]9985it [00:05, 1877.10it/s]10173it [00:05, 1812.73it/s]10363it [00:05, 1836.14it/s]10561it [00:05, 1877.51it/s]10750it [00:06, 1835.06it/s]10941it [00:06, 1855.72it/s]11132it [00:06, 1868.88it/s]11324it [00:06, 1882.28it/s]11513it [00:06, 1879.52it/s]11702it [00:06, 1868.03it/s]11889it [00:06, 1866.67it/s]12076it [00:06, 1754.99it/s]12254it [00:06, 1761.16it/s]12432it [00:07, 1751.23it/s]12547it [00:07, 1767.27it/s]
+0it [00:00, ?it/s]175it [00:00, 1742.91it/s]364it [00:00, 1827.60it/s]549it [00:00, 1833.56it/s]733it [00:00, 1745.91it/s]910it [00:00, 1753.90it/s]1086it [00:00, 1752.33it/s]1165it [00:00, 1770.95it/s]
+0it [00:00, ?it/s]175it [00:00, 1749.18it/s]374it [00:00, 1884.31it/s]571it [00:00, 1920.15it/s]763it [00:00, 1898.20it/s]953it [00:00, 1895.34it/s]1039it [00:00, 1895.32it/s]
+Time usage: 17.97105383872986
+https://huggingface.co:443 "HEAD /xlm-roberta-base/resolve/main/config.json HTTP/1.1" 200 0
+Epoch [1/15]
+top-down:TOP: Iter:    100,  Train Loss: 3e+01,  Train Acc: 56.25%,Val Loss:   6.8,  Val Acc: 55.88%, Val F1: 17.92% Time: 83.41107368469238 *
+top-down:SEC: Iter:    100,  Train Loss: 3e+01,  Train Acc: 18.75%,Val Loss:   6.8,  Val Acc: 24.21%, Val F1:  3.54% Time: 83.41107368469238 *
+top-down:CONN: Iter:    100,  Train Loss: 3e+01,  Train Acc:  3.12%,Val Loss:   6.8,  Val Acc: 12.88%, Val F1:  0.34% Time: 83.41107368469238 *
+ 
+ 
+top-down:TOP: Iter:    200,  Train Loss: 3.1e+01,  Train Acc: 56.25%,Val Loss:   6.4,  Val Acc: 55.79%, Val F1: 18.24% Time: 159.98931407928467 *
+top-down:SEC: Iter:    200,  Train Loss: 3.1e+01,  Train Acc: 28.12%,Val Loss:   6.4,  Val Acc: 29.27%, Val F1:  7.31% Time: 159.98931407928467 *
+top-down:CONN: Iter:    200,  Train Loss: 3.1e+01,  Train Acc: 12.50%,Val Loss:   6.4,  Val Acc: 15.28%, Val F1:  0.73% Time: 159.98931407928467 *
+ 
+ 
+top-down:TOP: Iter:    300,  Train Loss: 4e+01,  Train Acc: 75.00%,Val Loss:   6.3,  Val Acc: 55.88%, Val F1: 17.92% Time: 236.76926970481873 *
+top-down:SEC: Iter:    300,  Train Loss: 4e+01,  Train Acc: 34.38%,Val Loss:   6.3,  Val Acc: 32.70%, Val F1: 10.55% Time: 236.76926970481873 *
+top-down:CONN: Iter:    300,  Train Loss: 4e+01,  Train Acc: 15.62%,Val Loss:   6.3,  Val Acc: 15.28%, Val F1:  1.07% Time: 236.76926970481873 *
+ 
+ 
+Train time usage: 306.06244921684265
+Test time usage: 1.7055068016052246
+TOP: Test Loss:   6.0,  Test Acc: 56.59%, Test F1: 30.62%
+SEC: Test Loss:   6.0,  Test Acc: 36.67%, Test F1: 14.51%
+CONN: Test Loss:   6.0,  Test Acc: 17.23%, Test F1:  1.62%
+consistency_top_sec: 29.45%,  consistency_sec_conn: 14.24%, consistency_top_sec_conn: 11.07%
+              precision    recall  f1-score   support
+
+    Temporal     0.5000    0.0294    0.0556        68
+ Contingency     0.5066    0.2852    0.3649       270
+  Comparison     0.7273    0.0556    0.1032       144
+   Expansion     0.5745    0.8995    0.7012       557
+
+    accuracy                         0.5659      1039
+   macro avg     0.5771    0.3174    0.3062      1039
+weighted avg     0.5732    0.5659    0.4887      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.4286    0.0556    0.0984        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.4886    0.5597    0.5217       268
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.4444    0.0625    0.1096       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4186    0.5400    0.4716       200
+    Expansion.Instantiation     0.6667    0.0339    0.0645       118
+      Expansion.Restatement     0.2438    0.5094    0.3298       212
+      Expansion.Alternative     0.0000    0.0000    0.0000         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.3667      1039
+                  macro avg     0.2446    0.1601    0.1451      1039
+               weighted avg     0.4091    0.3667    0.3186      1039
+
+Epoch [2/15]
+top-down:TOP: Iter:    400,  Train Loss: 2.9e+01,  Train Acc: 59.38%,Val Loss:   6.1,  Val Acc: 54.76%, Val F1: 39.28% Time: 8.641809940338135 *
+top-down:SEC: Iter:    400,  Train Loss: 2.9e+01,  Train Acc: 40.62%,Val Loss:   6.1,  Val Acc: 37.08%, Val F1: 16.38% Time: 8.641809940338135 *
+top-down:CONN: Iter:    400,  Train Loss: 2.9e+01,  Train Acc:  9.38%,Val Loss:   6.1,  Val Acc: 18.71%, Val F1:  1.83% Time: 8.641809940338135 *
+ 
+ 
+top-down:TOP: Iter:    500,  Train Loss: 3.1e+01,  Train Acc: 71.88%,Val Loss:   6.0,  Val Acc: 52.62%, Val F1: 39.32% Time: 85.47786927223206 *
+top-down:SEC: Iter:    500,  Train Loss: 3.1e+01,  Train Acc: 59.38%,Val Loss:   6.0,  Val Acc: 41.20%, Val F1: 20.63% Time: 85.47786927223206 *
+top-down:CONN: Iter:    500,  Train Loss: 3.1e+01,  Train Acc: 40.62%,Val Loss:   6.0,  Val Acc: 21.97%, Val F1:  3.34% Time: 85.47786927223206 *
+ 
+ 
+top-down:TOP: Iter:    600,  Train Loss: 3.2e+01,  Train Acc: 59.38%,Val Loss:   5.7,  Val Acc: 58.28%, Val F1: 42.08% Time: 161.99422192573547 *
+top-down:SEC: Iter:    600,  Train Loss: 3.2e+01,  Train Acc: 50.00%,Val Loss:   5.7,  Val Acc: 43.26%, Val F1: 21.49% Time: 161.99422192573547 *
+top-down:CONN: Iter:    600,  Train Loss: 3.2e+01,  Train Acc: 40.62%,Val Loss:   5.7,  Val Acc: 22.75%, Val F1:  2.96% Time: 161.99422192573547 *
+ 
+ 
+top-down:TOP: Iter:    700,  Train Loss: 3e+01,  Train Acc: 46.88%,Val Loss:   5.6,  Val Acc: 61.37%, Val F1: 45.14% Time: 238.3034541606903 *
+top-down:SEC: Iter:    700,  Train Loss: 3e+01,  Train Acc: 53.12%,Val Loss:   5.6,  Val Acc: 42.15%, Val F1: 19.29% Time: 238.3034541606903 *
+top-down:CONN: Iter:    700,  Train Loss: 3e+01,  Train Acc: 28.12%,Val Loss:   5.6,  Val Acc: 23.26%, Val F1:  3.13% Time: 238.3034541606903 *
+ 
+ 
+Train time usage: 302.1670980453491
+Test time usage: 1.710526943206787
+TOP: Test Loss:   5.3,  Test Acc: 63.62%, Test F1: 52.01%
+SEC: Test Loss:   5.3,  Test Acc: 48.12%, Test F1: 26.66%
+CONN: Test Loss:   5.3,  Test Acc: 25.60%, Test F1:  5.18%
+consistency_top_sec: 41.96%,  consistency_sec_conn: 22.23%, consistency_top_sec_conn: 19.92%
+              precision    recall  f1-score   support
+
+    Temporal     0.4286    0.3529    0.3871        68
+ Contingency     0.6042    0.4280    0.5011       271
+  Comparison     0.5638    0.3681    0.4454       144
+   Expansion     0.6714    0.8417    0.7470       556
+
+    accuracy                         0.6362      1039
+   macro avg     0.5670    0.4977    0.5201      1039
+weighted avg     0.6231    0.6362    0.6175      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.4154    0.5000    0.4538        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5120    0.6320    0.5657       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.4818    0.4141    0.4454       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4730    0.5700    0.5170       200
+    Expansion.Instantiation     0.6364    0.5932    0.6140       118
+      Expansion.Restatement     0.3646    0.3128    0.3367       211
+      Expansion.Alternative     0.0000    0.0000    0.0000         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.4812      1039
+                  macro avg     0.2621    0.2747    0.2666      1039
+               weighted avg     0.4509    0.4812    0.4626      1039
+
+Epoch [3/15]
+top-down:TOP: Iter:    800,  Train Loss: 2.8e+01,  Train Acc: 50.00%,Val Loss:   5.6,  Val Acc: 57.51%, Val F1: 47.21% Time: 13.769067287445068 *
+top-down:SEC: Iter:    800,  Train Loss: 2.8e+01,  Train Acc: 37.50%,Val Loss:   5.6,  Val Acc: 44.81%, Val F1: 25.81% Time: 13.769067287445068 *
+top-down:CONN: Iter:    800,  Train Loss: 2.8e+01,  Train Acc: 28.12%,Val Loss:   5.6,  Val Acc: 23.61%, Val F1:  4.18% Time: 13.769067287445068 *
+ 
+ 
+top-down:TOP: Iter:    900,  Train Loss: 2.9e+01,  Train Acc: 65.62%,Val Loss:   5.5,  Val Acc: 60.86%, Val F1: 46.71% Time: 90.80835151672363 *
+top-down:SEC: Iter:    900,  Train Loss: 2.9e+01,  Train Acc: 62.50%,Val Loss:   5.5,  Val Acc: 46.52%, Val F1: 25.72% Time: 90.80835151672363 *
+top-down:CONN: Iter:    900,  Train Loss: 2.9e+01,  Train Acc: 15.62%,Val Loss:   5.5,  Val Acc: 25.41%, Val F1:  4.61% Time: 90.80835151672363 *
+ 
+ 
+top-down:TOP: Iter:   1000,  Train Loss: 3e+01,  Train Acc: 71.88%,Val Loss:   5.4,  Val Acc: 62.06%, Val F1: 46.89% Time: 167.9367175102234 *
+top-down:SEC: Iter:   1000,  Train Loss: 3e+01,  Train Acc: 56.25%,Val Loss:   5.4,  Val Acc: 47.47%, Val F1: 26.67% Time: 167.9367175102234 *
+top-down:CONN: Iter:   1000,  Train Loss: 3e+01,  Train Acc: 40.62%,Val Loss:   5.4,  Val Acc: 24.38%, Val F1:  4.60% Time: 167.9367175102234 *
+ 
+ 
+top-down:TOP: Iter:   1100,  Train Loss: 3.1e+01,  Train Acc: 71.88%,Val Loss:   5.4,  Val Acc: 60.60%, Val F1: 46.55% Time: 243.301908493042 
+top-down:SEC: Iter:   1100,  Train Loss: 3.1e+01,  Train Acc: 62.50%,Val Loss:   5.4,  Val Acc: 45.67%, Val F1: 25.41% Time: 243.301908493042 
+top-down:CONN: Iter:   1100,  Train Loss: 3.1e+01,  Train Acc: 28.12%,Val Loss:   5.4,  Val Acc: 24.81%, Val F1:  4.75% Time: 243.301908493042 
+ 
+ 
+Train time usage: 302.6113669872284
+Test time usage: 1.7256500720977783
+TOP: Test Loss:   5.3,  Test Acc: 60.73%, Test F1: 49.96%
+SEC: Test Loss:   5.3,  Test Acc: 47.64%, Test F1: 26.33%
+CONN: Test Loss:   5.3,  Test Acc: 22.04%, Test F1:  4.73%
+consistency_top_sec: 43.12%,  consistency_sec_conn: 18.86%, consistency_top_sec_conn: 17.04%
+              precision    recall  f1-score   support
+
+    Temporal     0.3651    0.3382    0.3511        68
+ Contingency     0.5967    0.3956    0.4758       273
+  Comparison     0.4452    0.4514    0.4483       144
+   Expansion     0.6703    0.7852    0.7232       554
+
+    accuracy                         0.6073      1039
+   macro avg     0.5193    0.4926    0.4996      1039
+weighted avg     0.5998    0.6073    0.5957      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3676    0.4630    0.4098        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5608    0.5316    0.5458       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.3789    0.4766    0.4221       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4281    0.6700    0.5224       200
+    Expansion.Instantiation     0.7253    0.5593    0.6316       118
+      Expansion.Restatement     0.4371    0.3128    0.3646       211
+      Expansion.Alternative     0.0000    0.0000    0.0000         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.4764      1039
+                  macro avg     0.2634    0.2739    0.2633      1039
+               weighted avg     0.4645    0.4764    0.4610      1039
+
+Epoch [4/15]
+top-down:TOP: Iter:   1200,  Train Loss: 3.3e+01,  Train Acc: 84.38%,Val Loss:   5.4,  Val Acc: 60.43%, Val F1: 45.98% Time: 17.30925226211548 
+top-down:SEC: Iter:   1200,  Train Loss: 3.3e+01,  Train Acc: 75.00%,Val Loss:   5.4,  Val Acc: 47.38%, Val F1: 26.72% Time: 17.30925226211548 
+top-down:CONN: Iter:   1200,  Train Loss: 3.3e+01,  Train Acc: 40.62%,Val Loss:   5.4,  Val Acc: 25.67%, Val F1:  5.25% Time: 17.30925226211548 
+ 
+ 
+top-down:TOP: Iter:   1300,  Train Loss: 3.5e+01,  Train Acc: 75.00%,Val Loss:   5.5,  Val Acc: 61.72%, Val F1: 47.55% Time: 94.51822447776794 *
+top-down:SEC: Iter:   1300,  Train Loss: 3.5e+01,  Train Acc: 50.00%,Val Loss:   5.5,  Val Acc: 46.18%, Val F1: 27.07% Time: 94.51822447776794 *
+top-down:CONN: Iter:   1300,  Train Loss: 3.5e+01,  Train Acc: 50.00%,Val Loss:   5.5,  Val Acc: 24.55%, Val F1:  5.19% Time: 94.51822447776794 *
+ 
+ 
+top-down:TOP: Iter:   1400,  Train Loss: 2.6e+01,  Train Acc: 75.00%,Val Loss:   5.5,  Val Acc: 61.12%, Val F1: 48.04% Time: 171.75988674163818 *
+top-down:SEC: Iter:   1400,  Train Loss: 2.6e+01,  Train Acc: 65.62%,Val Loss:   5.5,  Val Acc: 47.98%, Val F1: 30.11% Time: 171.75988674163818 *
+top-down:CONN: Iter:   1400,  Train Loss: 2.6e+01,  Train Acc: 46.88%,Val Loss:   5.5,  Val Acc: 25.92%, Val F1:  5.52% Time: 171.75988674163818 *
+ 
+ 
+top-down:TOP: Iter:   1500,  Train Loss: 3.3e+01,  Train Acc: 68.75%,Val Loss:   5.5,  Val Acc: 60.69%, Val F1: 46.92% Time: 247.47297382354736 
+top-down:SEC: Iter:   1500,  Train Loss: 3.3e+01,  Train Acc: 43.75%,Val Loss:   5.5,  Val Acc: 47.12%, Val F1: 30.10% Time: 247.47297382354736 
+top-down:CONN: Iter:   1500,  Train Loss: 3.3e+01,  Train Acc: 34.38%,Val Loss:   5.5,  Val Acc: 24.29%, Val F1:  5.56% Time: 247.47297382354736 
+ 
+ 
+Train time usage: 301.641699552536
+Test time usage: 1.7188732624053955
+TOP: Test Loss:   5.3,  Test Acc: 61.89%, Test F1: 51.63%
+SEC: Test Loss:   5.3,  Test Acc: 46.20%, Test F1: 28.80%
+CONN: Test Loss:   5.3,  Test Acc: 22.62%, Test F1:  5.69%
+consistency_top_sec: 42.73%,  consistency_sec_conn: 18.09%, consistency_top_sec_conn: 16.75%
+              precision    recall  f1-score   support
+
+    Temporal     0.4651    0.2941    0.3604        68
+ Contingency     0.5968    0.4081    0.4847       272
+  Comparison     0.4438    0.5486    0.4907       144
+   Expansion     0.6851    0.7802    0.7296       555
+
+    accuracy                         0.6189      1039
+   macro avg     0.5477    0.5077    0.5163      1039
+weighted avg     0.6142    0.6189    0.6082      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.4130    0.3519    0.3800        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5166    0.5204    0.5185       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.3833    0.5391    0.4481       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4975    0.4900    0.4937       200
+    Expansion.Instantiation     0.6538    0.5763    0.6126       118
+      Expansion.Restatement     0.3705    0.3934    0.3816       211
+      Expansion.Alternative     0.3333    0.3333    0.3333         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.4620      1039
+                  macro avg     0.2880    0.2913    0.2880      1039
+               weighted avg     0.4506    0.4620    0.4542      1039
+
+Epoch [5/15]
+top-down:TOP: Iter:   1600,  Train Loss: 3e+01,  Train Acc: 81.25%,Val Loss:   5.6,  Val Acc: 60.52%, Val F1: 48.62% Time: 22.472289085388184 
+top-down:SEC: Iter:   1600,  Train Loss: 3e+01,  Train Acc: 71.88%,Val Loss:   5.6,  Val Acc: 45.92%, Val F1: 28.61% Time: 22.472289085388184 
+top-down:CONN: Iter:   1600,  Train Loss: 3e+01,  Train Acc: 34.38%,Val Loss:   5.6,  Val Acc: 24.64%, Val F1:  5.63% Time: 22.472289085388184 
+ 
+ 
+top-down:TOP: Iter:   1700,  Train Loss: 2.9e+01,  Train Acc: 56.25%,Val Loss:   5.6,  Val Acc: 60.77%, Val F1: 49.91% Time: 97.84095191955566 
+top-down:SEC: Iter:   1700,  Train Loss: 2.9e+01,  Train Acc: 50.00%,Val Loss:   5.6,  Val Acc: 45.92%, Val F1: 28.50% Time: 97.84095191955566 
+top-down:CONN: Iter:   1700,  Train Loss: 2.9e+01,  Train Acc: 25.00%,Val Loss:   5.6,  Val Acc: 24.03%, Val F1:  5.56% Time: 97.84095191955566 
+ 
+ 
+top-down:TOP: Iter:   1800,  Train Loss: 2.7e+01,  Train Acc: 81.25%,Val Loss:   5.7,  Val Acc: 59.23%, Val F1: 49.53% Time: 173.1948037147522 
+top-down:SEC: Iter:   1800,  Train Loss: 2.7e+01,  Train Acc: 62.50%,Val Loss:   5.7,  Val Acc: 46.01%, Val F1: 28.35% Time: 173.1948037147522 
+top-down:CONN: Iter:   1800,  Train Loss: 2.7e+01,  Train Acc: 50.00%,Val Loss:   5.7,  Val Acc: 24.21%, Val F1:  5.58% Time: 173.1948037147522 
+ 
+ 
+top-down:TOP: Iter:   1900,  Train Loss: 2.7e+01,  Train Acc: 65.62%,Val Loss:   5.6,  Val Acc: 59.66%, Val F1: 48.74% Time: 248.25459170341492 
+top-down:SEC: Iter:   1900,  Train Loss: 2.7e+01,  Train Acc: 59.38%,Val Loss:   5.6,  Val Acc: 46.35%, Val F1: 28.96% Time: 248.25459170341492 
+top-down:CONN: Iter:   1900,  Train Loss: 2.7e+01,  Train Acc: 34.38%,Val Loss:   5.6,  Val Acc: 25.67%, Val F1:  5.74% Time: 248.25459170341492 
+ 
+ 
+Train time usage: 296.7410454750061
+Test time usage: 1.7281272411346436
+TOP: Test Loss:   5.4,  Test Acc: 60.83%, Test F1: 50.69%
+SEC: Test Loss:   5.4,  Test Acc: 47.35%, Test F1: 29.20%
+CONN: Test Loss:   5.4,  Test Acc: 24.06%, Test F1:  7.21%
+consistency_top_sec: 43.60%,  consistency_sec_conn: 19.54%, consistency_top_sec_conn: 18.09%
+              precision    recall  f1-score   support
+
+    Temporal     0.4200    0.3088    0.3559        68
+ Contingency     0.5668    0.4489    0.5010       274
+  Comparison     0.4408    0.4653    0.4527       144
+   Expansion     0.6790    0.7613    0.7178       553
+
+    accuracy                         0.6083      1039
+   macro avg     0.5267    0.4961    0.5069      1039
+weighted avg     0.5995    0.6083    0.6002      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3962    0.3889    0.3925        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5568    0.5651    0.5609       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.3816    0.4531    0.4143       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4701    0.5500    0.5069       200
+    Expansion.Instantiation     0.6154    0.6102    0.6128       118
+      Expansion.Restatement     0.3838    0.3602    0.3716       211
+      Expansion.Alternative     0.3750    0.3333    0.3529         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.4735      1039
+                  macro avg     0.2890    0.2964    0.2920      1039
+               weighted avg     0.4533    0.4735    0.4624      1039
+
+Epoch [6/15]
+top-down:TOP: Iter:   2000,  Train Loss: 2.8e+01,  Train Acc: 84.38%,Val Loss:   5.6,  Val Acc: 60.43%, Val F1: 48.50% Time: 27.404924869537354 
+top-down:SEC: Iter:   2000,  Train Loss: 2.8e+01,  Train Acc: 71.88%,Val Loss:   5.6,  Val Acc: 46.09%, Val F1: 27.63% Time: 27.404924869537354 
+top-down:CONN: Iter:   2000,  Train Loss: 2.8e+01,  Train Acc: 50.00%,Val Loss:   5.6,  Val Acc: 26.35%, Val F1:  6.30% Time: 27.404924869537354 
+ 
+ 
+top-down:TOP: Iter:   2100,  Train Loss: 2.9e+01,  Train Acc: 84.38%,Val Loss:   5.7,  Val Acc: 60.34%, Val F1: 50.03% Time: 102.37853002548218 
+top-down:SEC: Iter:   2100,  Train Loss: 2.9e+01,  Train Acc: 59.38%,Val Loss:   5.7,  Val Acc: 46.61%, Val F1: 28.95% Time: 102.37853002548218 
+top-down:CONN: Iter:   2100,  Train Loss: 2.9e+01,  Train Acc: 37.50%,Val Loss:   5.7,  Val Acc: 25.58%, Val F1:  6.39% Time: 102.37853002548218 
+ 
+ 
+top-down:TOP: Iter:   2200,  Train Loss: 2.7e+01,  Train Acc: 81.25%,Val Loss:   5.7,  Val Acc: 60.77%, Val F1: 48.85% Time: 177.33322501182556 
+top-down:SEC: Iter:   2200,  Train Loss: 2.7e+01,  Train Acc: 75.00%,Val Loss:   5.7,  Val Acc: 46.95%, Val F1: 28.29% Time: 177.33322501182556 
+top-down:CONN: Iter:   2200,  Train Loss: 2.7e+01,  Train Acc: 40.62%,Val Loss:   5.7,  Val Acc: 25.49%, Val F1:  6.34% Time: 177.33322501182556 
+ 
+ 
+top-down:TOP: Iter:   2300,  Train Loss: 3.6e+01,  Train Acc: 81.25%,Val Loss:   5.8,  Val Acc: 61.20%, Val F1: 47.79% Time: 252.63222217559814 
+top-down:SEC: Iter:   2300,  Train Loss: 3.6e+01,  Train Acc: 71.88%,Val Loss:   5.8,  Val Acc: 46.09%, Val F1: 27.39% Time: 252.63222217559814 
+top-down:CONN: Iter:   2300,  Train Loss: 3.6e+01,  Train Acc: 37.50%,Val Loss:   5.8,  Val Acc: 24.98%, Val F1:  5.83% Time: 252.63222217559814 
+ 
+ 
+Train time usage: 296.1407353878021
+Test time usage: 1.7109665870666504
+TOP: Test Loss:   5.5,  Test Acc: 59.67%, Test F1: 51.16%
+SEC: Test Loss:   5.5,  Test Acc: 45.62%, Test F1: 28.33%
+CONN: Test Loss:   5.5,  Test Acc: 23.00%, Test F1:  6.98%
+consistency_top_sec: 42.83%,  consistency_sec_conn: 18.19%, consistency_top_sec_conn: 17.61%
+              precision    recall  f1-score   support
+
+    Temporal     0.4068    0.3529    0.3780        68
+ Contingency     0.5299    0.4872    0.5076       273
+  Comparison     0.4303    0.4931    0.4595       144
+   Expansion     0.6950    0.7076    0.7013       554
+
+    accuracy                         0.5967      1039
+   macro avg     0.5155    0.5102    0.5116      1039
+weighted avg     0.5961    0.5967    0.5957      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3729    0.4074    0.3894        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5179    0.5390    0.5282       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.3663    0.4922    0.4200       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4703    0.4750    0.4726       200
+    Expansion.Instantiation     0.6545    0.6102    0.6316       118
+      Expansion.Restatement     0.3682    0.3507    0.3592       211
+      Expansion.Alternative     0.3000    0.3333    0.3158         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.4562      1039
+                  macro avg     0.2773    0.2916    0.2833      1039
+               weighted avg     0.4408    0.4562    0.4471      1039
+
+Epoch [7/15]
+top-down:TOP: Iter:   2400,  Train Loss: 3.2e+01,  Train Acc: 75.00%,Val Loss:   6.0,  Val Acc: 60.26%, Val F1: 48.81% Time: 32.520973443984985 
+top-down:SEC: Iter:   2400,  Train Loss: 3.2e+01,  Train Acc: 62.50%,Val Loss:   6.0,  Val Acc: 44.46%, Val F1: 26.93% Time: 32.520973443984985 
+top-down:CONN: Iter:   2400,  Train Loss: 3.2e+01,  Train Acc: 43.75%,Val Loss:   6.0,  Val Acc: 24.55%, Val F1:  6.29% Time: 32.520973443984985 
+ 
+ 
+top-down:TOP: Iter:   2500,  Train Loss: 2.8e+01,  Train Acc: 90.62%,Val Loss:   5.8,  Val Acc: 60.60%, Val F1: 47.09% Time: 107.6514675617218 
+top-down:SEC: Iter:   2500,  Train Loss: 2.8e+01,  Train Acc: 71.88%,Val Loss:   5.8,  Val Acc: 46.18%, Val F1: 26.96% Time: 107.6514675617218 
+top-down:CONN: Iter:   2500,  Train Loss: 2.8e+01,  Train Acc: 68.75%,Val Loss:   5.8,  Val Acc: 25.24%, Val F1:  6.47% Time: 107.6514675617218 
+ 
+ 
+top-down:TOP: Iter:   2600,  Train Loss: 3.4e+01,  Train Acc: 65.62%,Val Loss:   6.0,  Val Acc: 61.03%, Val F1: 50.09% Time: 182.81318593025208 
+top-down:SEC: Iter:   2600,  Train Loss: 3.4e+01,  Train Acc: 46.88%,Val Loss:   6.0,  Val Acc: 44.46%, Val F1: 28.07% Time: 182.81318593025208 
+top-down:CONN: Iter:   2600,  Train Loss: 3.4e+01,  Train Acc: 25.00%,Val Loss:   6.0,  Val Acc: 24.12%, Val F1:  5.33% Time: 182.81318593025208 
+ 
+ 
+top-down:TOP: Iter:   2700,  Train Loss: 3.4e+01,  Train Acc: 75.00%,Val Loss:   6.0,  Val Acc: 60.17%, Val F1: 48.41% Time: 257.9440016746521 
+top-down:SEC: Iter:   2700,  Train Loss: 3.4e+01,  Train Acc: 62.50%,Val Loss:   6.0,  Val Acc: 45.32%, Val F1: 27.78% Time: 257.9440016746521 
+top-down:CONN: Iter:   2700,  Train Loss: 3.4e+01,  Train Acc: 25.00%,Val Loss:   6.0,  Val Acc: 24.21%, Val F1:  5.94% Time: 257.9440016746521 
+ 
+ 
+Train time usage: 296.73202753067017
+Test time usage: 1.7227518558502197
+TOP: Test Loss:   5.7,  Test Acc: 61.02%, Test F1: 51.46%
+SEC: Test Loss:   5.7,  Test Acc: 46.97%, Test F1: 27.91%
+CONN: Test Loss:   5.7,  Test Acc: 23.97%, Test F1:  8.00%
+consistency_top_sec: 44.66%,  consistency_sec_conn: 19.83%, consistency_top_sec_conn: 19.35%
+              precision    recall  f1-score   support
+
+    Temporal     0.4038    0.3088    0.3500        68
+ Contingency     0.5290    0.5657    0.5467       274
+  Comparison     0.4769    0.4306    0.4526       144
+   Expansion     0.7021    0.7161    0.7090       553
+
+    accuracy                         0.6102      1039
+   macro avg     0.5280    0.5053    0.5146      1039
+weighted avg     0.6057    0.6102    0.6072      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3878    0.3519    0.3689        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5258    0.6059    0.5630       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.4143    0.4531    0.4328       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4774    0.4750    0.4762       200
+    Expansion.Instantiation     0.6372    0.6102    0.6234       118
+      Expansion.Restatement     0.3674    0.3744    0.3709       211
+      Expansion.Alternative     0.2500    0.2222    0.2353         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.4697      1039
+                  macro avg     0.2782    0.2812    0.2791      1039
+               weighted avg     0.4484    0.4697    0.4581      1039
+
+Epoch [8/15]
+top-down:TOP: Iter:   2800,  Train Loss: 3.2e+01,  Train Acc: 87.50%,Val Loss:   6.0,  Val Acc: 58.88%, Val F1: 47.95% Time: 37.804147481918335 
+top-down:SEC: Iter:   2800,  Train Loss: 3.2e+01,  Train Acc: 78.12%,Val Loss:   6.0,  Val Acc: 46.18%, Val F1: 29.40% Time: 37.804147481918335 
+top-down:CONN: Iter:   2800,  Train Loss: 3.2e+01,  Train Acc: 40.62%,Val Loss:   6.0,  Val Acc: 24.98%, Val F1:  5.90% Time: 37.804147481918335 
+ 
+ 
+top-down:TOP: Iter:   2900,  Train Loss: 2.7e+01,  Train Acc: 75.00%,Val Loss:   6.2,  Val Acc: 58.97%, Val F1: 46.65% Time: 112.78325247764587 
+top-down:SEC: Iter:   2900,  Train Loss: 2.7e+01,  Train Acc: 68.75%,Val Loss:   6.2,  Val Acc: 43.61%, Val F1: 27.86% Time: 112.78325247764587 
+top-down:CONN: Iter:   2900,  Train Loss: 2.7e+01,  Train Acc: 40.62%,Val Loss:   6.2,  Val Acc: 23.61%, Val F1:  6.25% Time: 112.78325247764587 
+ 
+ 
+top-down:TOP: Iter:   3000,  Train Loss: 3e+01,  Train Acc: 90.62%,Val Loss:   6.2,  Val Acc: 59.91%, Val F1: 49.26% Time: 187.67843675613403 
+top-down:SEC: Iter:   3000,  Train Loss: 3e+01,  Train Acc: 78.12%,Val Loss:   6.2,  Val Acc: 45.06%, Val F1: 28.24% Time: 187.67843675613403 
+top-down:CONN: Iter:   3000,  Train Loss: 3e+01,  Train Acc: 46.88%,Val Loss:   6.2,  Val Acc: 24.55%, Val F1:  6.30% Time: 187.67843675613403 
+ 
+ 
+top-down:TOP: Iter:   3100,  Train Loss: 2.7e+01,  Train Acc: 68.75%,Val Loss:   6.0,  Val Acc: 60.43%, Val F1: 48.69% Time: 262.5354743003845 
+top-down:SEC: Iter:   3100,  Train Loss: 2.7e+01,  Train Acc: 71.88%,Val Loss:   6.0,  Val Acc: 45.06%, Val F1: 28.39% Time: 262.5354743003845 
+top-down:CONN: Iter:   3100,  Train Loss: 2.7e+01,  Train Acc: 37.50%,Val Loss:   6.0,  Val Acc: 24.98%, Val F1:  5.98% Time: 262.5354743003845 
+ 
+ 
+Train time usage: 295.7213304042816
+Test time usage: 1.71537446975708
+TOP: Test Loss:   5.9,  Test Acc: 61.31%, Test F1: 50.29%
+SEC: Test Loss:   5.9,  Test Acc: 45.62%, Test F1: 28.13%
+CONN: Test Loss:   5.9,  Test Acc: 21.66%, Test F1:  7.33%
+consistency_top_sec: 43.31%,  consistency_sec_conn: 17.81%, consistency_top_sec_conn: 16.75%
+              precision    recall  f1-score   support
+
+    Temporal     0.3958    0.2794    0.3276        68
+ Contingency     0.5551    0.4599    0.5030       274
+  Comparison     0.5041    0.4236    0.4604       144
+   Expansion     0.6703    0.7794    0.7207       553
+
+    accuracy                         0.6131      1039
+   macro avg     0.5313    0.4856    0.5029      1039
+weighted avg     0.5989    0.6131    0.6015      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3556    0.2963    0.3232        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5328    0.5130    0.5227       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.4390    0.4219    0.4303       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4249    0.5800    0.4905       200
+    Expansion.Instantiation     0.5580    0.6525    0.6016       118
+      Expansion.Restatement     0.3833    0.3270    0.3529       211
+      Expansion.Alternative     0.2308    0.3333    0.2727         9
+             Expansion.List     0.1250    0.0833    0.1000        12
+
+                   accuracy                         0.4562      1039
+                  macro avg     0.2772    0.2916    0.2813      1039
+               weighted avg     0.4370    0.4562    0.4431      1039
+
+Epoch [9/15]
+top-down:TOP: Iter:   3200,  Train Loss: 3.1e+01,  Train Acc: 84.38%,Val Loss:   6.2,  Val Acc: 60.17%, Val F1: 49.73% Time: 42.70902442932129 
+top-down:SEC: Iter:   3200,  Train Loss: 3.1e+01,  Train Acc: 78.12%,Val Loss:   6.2,  Val Acc: 46.01%, Val F1: 29.16% Time: 42.70902442932129 
+top-down:CONN: Iter:   3200,  Train Loss: 3.1e+01,  Train Acc: 59.38%,Val Loss:   6.2,  Val Acc: 24.89%, Val F1:  5.98% Time: 42.70902442932129 
+ 
+ 
+top-down:TOP: Iter:   3300,  Train Loss: 3.1e+01,  Train Acc: 81.25%,Val Loss:   6.3,  Val Acc: 59.83%, Val F1: 49.62% Time: 117.50029492378235 
+top-down:SEC: Iter:   3300,  Train Loss: 3.1e+01,  Train Acc: 62.50%,Val Loss:   6.3,  Val Acc: 45.67%, Val F1: 28.33% Time: 117.50029492378235 
+top-down:CONN: Iter:   3300,  Train Loss: 3.1e+01,  Train Acc: 71.88%,Val Loss:   6.3,  Val Acc: 24.38%, Val F1:  6.46% Time: 117.50029492378235 
+ 
+ 
+top-down:TOP: Iter:   3400,  Train Loss: 2.5e+01,  Train Acc: 75.00%,Val Loss:   6.4,  Val Acc: 59.48%, Val F1: 48.69% Time: 192.3107454776764 
+top-down:SEC: Iter:   3400,  Train Loss: 2.5e+01,  Train Acc: 65.62%,Val Loss:   6.4,  Val Acc: 44.46%, Val F1: 28.55% Time: 192.3107454776764 
+top-down:CONN: Iter:   3400,  Train Loss: 2.5e+01,  Train Acc: 43.75%,Val Loss:   6.4,  Val Acc: 24.72%, Val F1:  6.19% Time: 192.3107454776764 
+ 
+ 
+top-down:TOP: Iter:   3500,  Train Loss: 3.3e+01,  Train Acc: 87.50%,Val Loss:   6.2,  Val Acc: 60.43%, Val F1: 49.66% Time: 267.0892550945282 
+top-down:SEC: Iter:   3500,  Train Loss: 3.3e+01,  Train Acc: 75.00%,Val Loss:   6.2,  Val Acc: 46.09%, Val F1: 29.70% Time: 267.0892550945282 
+top-down:CONN: Iter:   3500,  Train Loss: 3.3e+01,  Train Acc: 40.62%,Val Loss:   6.2,  Val Acc: 25.06%, Val F1:  6.74% Time: 267.0892550945282 
+ 
+ 
+Train time usage: 295.09608483314514
+Test time usage: 1.7315497398376465
+TOP: Test Loss:   6.0,  Test Acc: 60.35%, Test F1: 51.29%
+SEC: Test Loss:   6.0,  Test Acc: 46.49%, Test F1: 28.14%
+CONN: Test Loss:   6.0,  Test Acc: 22.62%, Test F1:  7.55%
+consistency_top_sec: 44.18%,  consistency_sec_conn: 18.00%, consistency_top_sec_conn: 17.23%
+              precision    recall  f1-score   support
+
+    Temporal     0.3582    0.3529    0.3556        68
+ Contingency     0.5375    0.4964    0.5161       274
+  Comparison     0.4545    0.4861    0.4698       144
+   Expansion     0.7027    0.7179    0.7102       553
+
+    accuracy                         0.6035      1039
+   macro avg     0.5132    0.5133    0.5129      1039
+weighted avg     0.6022    0.6035    0.6025      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3396    0.3333    0.3364        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5277    0.5316    0.5296       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.3812    0.4766    0.4236       128
+      Comparison.Concession     1.0000    0.0588    0.1111        17
+      Expansion.Conjunction     0.4820    0.5350    0.5071       200
+    Expansion.Instantiation     0.6545    0.6102    0.6316       118
+      Expansion.Restatement     0.3892    0.3744    0.3816       211
+      Expansion.Alternative     0.1429    0.2222    0.1739         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.4649      1039
+                  macro avg     0.3561    0.2856    0.2814      1039
+               weighted avg     0.4650    0.4649    0.4570      1039
+
+Epoch [10/15]
+top-down:TOP: Iter:   3600,  Train Loss: 2.5e+01,  Train Acc: 87.50%,Val Loss:   6.3,  Val Acc: 59.91%, Val F1: 49.05% Time: 47.855491638183594 
+top-down:SEC: Iter:   3600,  Train Loss: 2.5e+01,  Train Acc: 81.25%,Val Loss:   6.3,  Val Acc: 46.44%, Val F1: 29.16% Time: 47.855491638183594 
+top-down:CONN: Iter:   3600,  Train Loss: 2.5e+01,  Train Acc: 43.75%,Val Loss:   6.3,  Val Acc: 25.41%, Val F1:  6.37% Time: 47.855491638183594 
+ 
+ 
+top-down:TOP: Iter:   3700,  Train Loss: 3e+01,  Train Acc: 84.38%,Val Loss:   6.5,  Val Acc: 59.40%, Val F1: 47.59% Time: 122.69604229927063 
+top-down:SEC: Iter:   3700,  Train Loss: 3e+01,  Train Acc: 65.62%,Val Loss:   6.5,  Val Acc: 43.52%, Val F1: 28.61% Time: 122.69604229927063 
+top-down:CONN: Iter:   3700,  Train Loss: 3e+01,  Train Acc: 46.88%,Val Loss:   6.5,  Val Acc: 23.86%, Val F1:  6.67% Time: 122.69604229927063 
+ 
+ 
+top-down:TOP: Iter:   3800,  Train Loss: 2.7e+01,  Train Acc: 90.62%,Val Loss:   6.4,  Val Acc: 60.60%, Val F1: 49.80% Time: 197.94027495384216 
+top-down:SEC: Iter:   3800,  Train Loss: 2.7e+01,  Train Acc: 78.12%,Val Loss:   6.4,  Val Acc: 45.92%, Val F1: 30.00% Time: 197.94027495384216 
+top-down:CONN: Iter:   3800,  Train Loss: 2.7e+01,  Train Acc: 40.62%,Val Loss:   6.4,  Val Acc: 24.03%, Val F1:  6.12% Time: 197.94027495384216 
+ 
+ 
+top-down:TOP: Iter:   3900,  Train Loss: 3.1e+01,  Train Acc: 87.50%,Val Loss:   6.4,  Val Acc: 60.09%, Val F1: 48.60% Time: 273.29644203186035 
+top-down:SEC: Iter:   3900,  Train Loss: 3.1e+01,  Train Acc: 87.50%,Val Loss:   6.4,  Val Acc: 45.92%, Val F1: 29.41% Time: 273.29644203186035 
+top-down:CONN: Iter:   3900,  Train Loss: 3.1e+01,  Train Acc: 46.88%,Val Loss:   6.4,  Val Acc: 25.24%, Val F1:  6.78% Time: 273.29644203186035 
+ 
+ 
+Train time usage: 296.3648428916931
+Test time usage: 1.7228212356567383
+TOP: Test Loss:   6.2,  Test Acc: 59.48%, Test F1: 50.04%
+SEC: Test Loss:   6.2,  Test Acc: 43.89%, Test F1: 28.24%
+CONN: Test Loss:   6.2,  Test Acc: 22.23%, Test F1:  7.43%
+consistency_top_sec: 41.87%,  consistency_sec_conn: 17.13%, consistency_top_sec_conn: 16.55%
+              precision    recall  f1-score   support
+
+    Temporal     0.4545    0.2941    0.3571        68
+ Contingency     0.5085    0.4396    0.4715       273
+  Comparison     0.4516    0.4861    0.4682       144
+   Expansion     0.6755    0.7365    0.7047       554
+
+    accuracy                         0.5948      1039
+   macro avg     0.5225    0.4891    0.5004      1039
+weighted avg     0.5861    0.5948    0.5879      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.4286    0.2778    0.3371        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.4887    0.4833    0.4860       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.3827    0.4844    0.4276       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4344    0.5300    0.4775       200
+    Expansion.Instantiation     0.6481    0.5932    0.6195       118
+      Expansion.Restatement     0.3526    0.3175    0.3342       211
+      Expansion.Alternative     0.2500    0.5556    0.3448         9
+             Expansion.List     0.0769    0.0833    0.0800        12
+
+                   accuracy                         0.4389      1039
+                  macro avg     0.2784    0.3023    0.2824      1039
+               weighted avg     0.4279    0.4389    0.4301      1039
+
+Epoch [11/15]
+top-down:TOP: Iter:   4000,  Train Loss: 3.3e+01,  Train Acc: 90.62%,Val Loss:   6.5,  Val Acc: 60.00%, Val F1: 50.84% Time: 53.1107177734375 
+top-down:SEC: Iter:   4000,  Train Loss: 3.3e+01,  Train Acc: 68.75%,Val Loss:   6.5,  Val Acc: 46.09%, Val F1: 29.79% Time: 53.1107177734375 
+top-down:CONN: Iter:   4000,  Train Loss: 3.3e+01,  Train Acc: 37.50%,Val Loss:   6.5,  Val Acc: 25.06%, Val F1:  6.61% Time: 53.1107177734375 
+ 
+ 
+top-down:TOP: Iter:   4100,  Train Loss: 3.2e+01,  Train Acc: 87.50%,Val Loss:   6.5,  Val Acc: 60.00%, Val F1: 47.94% Time: 127.96703481674194 
+top-down:SEC: Iter:   4100,  Train Loss: 3.2e+01,  Train Acc: 68.75%,Val Loss:   6.5,  Val Acc: 44.81%, Val F1: 29.65% Time: 127.96703481674194 
+top-down:CONN: Iter:   4100,  Train Loss: 3.2e+01,  Train Acc: 34.38%,Val Loss:   6.5,  Val Acc: 23.95%, Val F1:  6.49% Time: 127.96703481674194 
+ 
+ 
+top-down:TOP: Iter:   4200,  Train Loss: 2.9e+01,  Train Acc: 81.25%,Val Loss:   6.6,  Val Acc: 60.09%, Val F1: 50.19% Time: 202.7875692844391 
+top-down:SEC: Iter:   4200,  Train Loss: 2.9e+01,  Train Acc: 65.62%,Val Loss:   6.6,  Val Acc: 45.24%, Val F1: 29.59% Time: 202.7875692844391 
+top-down:CONN: Iter:   4200,  Train Loss: 2.9e+01,  Train Acc: 43.75%,Val Loss:   6.6,  Val Acc: 24.12%, Val F1:  6.85% Time: 202.7875692844391 
+ 
+ 
+top-down:TOP: Iter:   4300,  Train Loss: 2.6e+01,  Train Acc: 93.75%,Val Loss:   6.6,  Val Acc: 60.52%, Val F1: 51.87% Time: 279.4745297431946 *
+top-down:SEC: Iter:   4300,  Train Loss: 2.6e+01,  Train Acc: 78.12%,Val Loss:   6.6,  Val Acc: 45.58%, Val F1: 30.80% Time: 279.4745297431946 *
+top-down:CONN: Iter:   4300,  Train Loss: 2.6e+01,  Train Acc: 31.25%,Val Loss:   6.6,  Val Acc: 24.46%, Val F1:  6.28% Time: 279.4745297431946 *
+ 
+ 
+Train time usage: 297.32503032684326
+Test time usage: 1.7069706916809082
+TOP: Test Loss:   6.4,  Test Acc: 59.10%, Test F1: 49.98%
+SEC: Test Loss:   6.4,  Test Acc: 44.37%, Test F1: 28.38%
+CONN: Test Loss:   6.4,  Test Acc: 22.23%, Test F1:  7.18%
+consistency_top_sec: 42.83%,  consistency_sec_conn: 17.42%, consistency_top_sec_conn: 16.84%
+              precision    recall  f1-score   support
+
+    Temporal     0.3258    0.4203    0.3671        69
+ Contingency     0.5419    0.4505    0.4920       273
+  Comparison     0.4397    0.4306    0.4351       144
+   Expansion     0.6873    0.7233    0.7048       553
+
+    accuracy                         0.5910      1039
+   macro avg     0.4987    0.5062    0.4998      1039
+weighted avg     0.5908    0.5910    0.5891      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3247    0.4630    0.3817        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5000    0.4664    0.4826       268
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.3942    0.4219    0.4075       128
+      Comparison.Concession     0.5000    0.0588    0.1053        17
+      Expansion.Conjunction     0.4729    0.4800    0.4764       200
+    Expansion.Instantiation     0.6239    0.6186    0.6213       118
+      Expansion.Restatement     0.3700    0.3962    0.3827       212
+      Expansion.Alternative     0.1429    0.2222    0.1739         9
+             Expansion.List     0.1000    0.0833    0.0909        12
+
+                   accuracy                         0.4437      1039
+                  macro avg     0.3117    0.2919    0.2838      1039
+               weighted avg     0.4424    0.4437    0.4392      1039
+
+Epoch [12/15]
+top-down:TOP: Iter:   4400,  Train Loss: 3.1e+01,  Train Acc: 84.38%,Val Loss:   6.7,  Val Acc: 59.91%, Val F1: 50.87% Time: 58.06655192375183 
+top-down:SEC: Iter:   4400,  Train Loss: 3.1e+01,  Train Acc: 78.12%,Val Loss:   6.7,  Val Acc: 45.49%, Val F1: 29.21% Time: 58.06655192375183 
+top-down:CONN: Iter:   4400,  Train Loss: 3.1e+01,  Train Acc: 53.12%,Val Loss:   6.7,  Val Acc: 24.81%, Val F1:  7.02% Time: 58.06655192375183 
+ 
+ 
+top-down:TOP: Iter:   4500,  Train Loss: 3e+01,  Train Acc: 87.50%,Val Loss:   6.7,  Val Acc: 60.34%, Val F1: 49.73% Time: 133.22360277175903 
+top-down:SEC: Iter:   4500,  Train Loss: 3e+01,  Train Acc: 81.25%,Val Loss:   6.7,  Val Acc: 44.72%, Val F1: 28.53% Time: 133.22360277175903 
+top-down:CONN: Iter:   4500,  Train Loss: 3e+01,  Train Acc: 37.50%,Val Loss:   6.7,  Val Acc: 24.21%, Val F1:  6.08% Time: 133.22360277175903 
+ 
+ 
+top-down:TOP: Iter:   4600,  Train Loss: 2.8e+01,  Train Acc: 93.75%,Val Loss:   6.7,  Val Acc: 60.69%, Val F1: 49.49% Time: 208.17779660224915 
+top-down:SEC: Iter:   4600,  Train Loss: 2.8e+01,  Train Acc: 75.00%,Val Loss:   6.7,  Val Acc: 45.24%, Val F1: 27.84% Time: 208.17779660224915 
+top-down:CONN: Iter:   4600,  Train Loss: 2.8e+01,  Train Acc: 46.88%,Val Loss:   6.7,  Val Acc: 24.46%, Val F1:  6.26% Time: 208.17779660224915 
+ 
+ 
+top-down:TOP: Iter:   4700,  Train Loss: 3e+01,  Train Acc: 96.88%,Val Loss:   6.7,  Val Acc: 59.31%, Val F1: 47.74% Time: 283.07143926620483 
+top-down:SEC: Iter:   4700,  Train Loss: 3e+01,  Train Acc: 81.25%,Val Loss:   6.7,  Val Acc: 45.32%, Val F1: 29.25% Time: 283.07143926620483 
+top-down:CONN: Iter:   4700,  Train Loss: 3e+01,  Train Acc: 56.25%,Val Loss:   6.7,  Val Acc: 24.89%, Val F1:  6.80% Time: 283.07143926620483 
+ 
+ 
+Train time usage: 295.83947682380676
+Test time usage: 1.7141153812408447
+TOP: Test Loss:   6.5,  Test Acc: 59.38%, Test F1: 48.95%
+SEC: Test Loss:   6.5,  Test Acc: 44.95%, Test F1: 28.11%
+CONN: Test Loss:   6.5,  Test Acc: 22.33%, Test F1:  7.53%
+consistency_top_sec: 43.41%,  consistency_sec_conn: 18.09%, consistency_top_sec_conn: 17.61%
+              precision    recall  f1-score   support
+
+    Temporal     0.3492    0.3188    0.3333        69
+ Contingency     0.5321    0.4249    0.4725       273
+  Comparison     0.4656    0.4236    0.4436       144
+   Expansion     0.6667    0.7559    0.7085       553
+
+    accuracy                         0.5938      1039
+   macro avg     0.5034    0.4808    0.4895      1039
+weighted avg     0.5824    0.5938    0.5849      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3725    0.3519    0.3619        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.4958    0.4366    0.4643       268
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.4341    0.4375    0.4358       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4440    0.5150    0.4769       200
+    Expansion.Instantiation     0.6606    0.6102    0.6344       118
+      Expansion.Restatement     0.3674    0.4575    0.4076       212
+      Expansion.Alternative     0.1818    0.2222    0.2000         9
+             Expansion.List     0.1667    0.0833    0.1111        12
+
+                   accuracy                         0.4495      1039
+                  macro avg     0.2839    0.2831    0.2811      1039
+               weighted avg     0.4397    0.4495    0.4423      1039
+
+Epoch [13/15]
+top-down:TOP: Iter:   4800,  Train Loss: 2.6e+01,  Train Acc: 84.38%,Val Loss:   6.7,  Val Acc: 60.43%, Val F1: 48.38% Time: 63.4934356212616 
+top-down:SEC: Iter:   4800,  Train Loss: 2.6e+01,  Train Acc: 78.12%,Val Loss:   6.7,  Val Acc: 44.72%, Val F1: 27.63% Time: 63.4934356212616 
+top-down:CONN: Iter:   4800,  Train Loss: 2.6e+01,  Train Acc: 43.75%,Val Loss:   6.7,  Val Acc: 24.89%, Val F1:  6.61% Time: 63.4934356212616 
+ 
+ 
+top-down:TOP: Iter:   4900,  Train Loss: 2.6e+01,  Train Acc: 90.62%,Val Loss:   6.8,  Val Acc: 59.66%, Val F1: 48.61% Time: 138.70814633369446 
+top-down:SEC: Iter:   4900,  Train Loss: 2.6e+01,  Train Acc: 81.25%,Val Loss:   6.8,  Val Acc: 44.98%, Val F1: 28.18% Time: 138.70814633369446 
+top-down:CONN: Iter:   4900,  Train Loss: 2.6e+01,  Train Acc: 34.38%,Val Loss:   6.8,  Val Acc: 24.38%, Val F1:  6.83% Time: 138.70814633369446 
+ 
+ 
+top-down:TOP: Iter:   5000,  Train Loss: 2.9e+01,  Train Acc: 90.62%,Val Loss:   6.8,  Val Acc: 59.57%, Val F1: 48.58% Time: 213.95057010650635 
+top-down:SEC: Iter:   5000,  Train Loss: 2.9e+01,  Train Acc: 81.25%,Val Loss:   6.8,  Val Acc: 45.92%, Val F1: 29.61% Time: 213.95057010650635 
+top-down:CONN: Iter:   5000,  Train Loss: 2.9e+01,  Train Acc: 53.12%,Val Loss:   6.8,  Val Acc: 24.98%, Val F1:  7.03% Time: 213.95057010650635 
+ 
+ 
+top-down:TOP: Iter:   5100,  Train Loss: 3.2e+01,  Train Acc: 93.75%,Val Loss:   6.8,  Val Acc: 59.74%, Val F1: 49.27% Time: 289.349524974823 
+top-down:SEC: Iter:   5100,  Train Loss: 3.2e+01,  Train Acc: 87.50%,Val Loss:   6.8,  Val Acc: 44.64%, Val F1: 27.41% Time: 289.349524974823 
+top-down:CONN: Iter:   5100,  Train Loss: 3.2e+01,  Train Acc: 37.50%,Val Loss:   6.8,  Val Acc: 25.15%, Val F1:  6.64% Time: 289.349524974823 
+ 
+ 
+Train time usage: 296.945928812027
+Test time usage: 1.716155767440796
+TOP: Test Loss:   6.6,  Test Acc: 59.19%, Test F1: 49.86%
+SEC: Test Loss:   6.6,  Test Acc: 44.56%, Test F1: 28.59%
+CONN: Test Loss:   6.6,  Test Acc: 22.71%, Test F1:  7.35%
+consistency_top_sec: 43.50%,  consistency_sec_conn: 17.81%, consistency_top_sec_conn: 17.42%
+              precision    recall  f1-score   support
+
+    Temporal     0.3521    0.3623    0.3571        69
+ Contingency     0.5198    0.4322    0.4720       273
+  Comparison     0.4615    0.4583    0.4599       144
+   Expansion     0.6789    0.7342    0.7055       553
+
+    accuracy                         0.5919      1039
+   macro avg     0.5031    0.4968    0.4986      1039
+weighted avg     0.5853    0.5919    0.5870      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3390    0.3636    0.3509        55
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5021    0.4515    0.4754       268
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.4110    0.4688    0.4380       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4381    0.4950    0.4648       200
+    Expansion.Instantiation     0.6667    0.6325    0.6491       117
+      Expansion.Restatement     0.3750    0.3962    0.3853       212
+      Expansion.Alternative     0.2105    0.4444    0.2857         9
+             Expansion.List     0.1111    0.0833    0.0952        12
+
+                   accuracy                         0.4456      1039
+                  macro avg     0.2776    0.3032    0.2859      1039
+               weighted avg     0.4371    0.4456    0.4399      1039
+
+Epoch [14/15]
+top-down:TOP: Iter:   5200,  Train Loss: 3.1e+01,  Train Acc: 93.75%,Val Loss:   6.8,  Val Acc: 60.00%, Val F1: 49.88% Time: 68.96717882156372 
+top-down:SEC: Iter:   5200,  Train Loss: 3.1e+01,  Train Acc: 87.50%,Val Loss:   6.8,  Val Acc: 45.84%, Val F1: 29.32% Time: 68.96717882156372 
+top-down:CONN: Iter:   5200,  Train Loss: 3.1e+01,  Train Acc: 56.25%,Val Loss:   6.8,  Val Acc: 24.46%, Val F1:  6.66% Time: 68.96717882156372 
+ 
+ 
+top-down:TOP: Iter:   5300,  Train Loss: 2.9e+01,  Train Acc: 90.62%,Val Loss:   6.9,  Val Acc: 59.57%, Val F1: 48.58% Time: 144.5127785205841 
+top-down:SEC: Iter:   5300,  Train Loss: 2.9e+01,  Train Acc: 78.12%,Val Loss:   6.9,  Val Acc: 44.38%, Val F1: 28.69% Time: 144.5127785205841 
+top-down:CONN: Iter:   5300,  Train Loss: 2.9e+01,  Train Acc: 53.12%,Val Loss:   6.9,  Val Acc: 23.95%, Val F1:  6.60% Time: 144.5127785205841 
+ 
+ 
+top-down:TOP: Iter:   5400,  Train Loss: 3.3e+01,  Train Acc: 90.62%,Val Loss:   6.8,  Val Acc: 60.34%, Val F1: 49.35% Time: 220.13758635520935 
+top-down:SEC: Iter:   5400,  Train Loss: 3.3e+01,  Train Acc: 75.00%,Val Loss:   6.8,  Val Acc: 45.49%, Val F1: 29.15% Time: 220.13758635520935 
+top-down:CONN: Iter:   5400,  Train Loss: 3.3e+01,  Train Acc: 50.00%,Val Loss:   6.8,  Val Acc: 24.46%, Val F1:  6.82% Time: 220.13758635520935 
+ 
+ 
+top-down:TOP: Iter:   5500,  Train Loss: 3.6e+01,  Train Acc: 93.75%,Val Loss:   6.8,  Val Acc: 59.48%, Val F1: 49.44% Time: 295.79642629623413 
+top-down:SEC: Iter:   5500,  Train Loss: 3.6e+01,  Train Acc: 87.50%,Val Loss:   6.8,  Val Acc: 45.92%, Val F1: 29.17% Time: 295.79642629623413 
+top-down:CONN: Iter:   5500,  Train Loss: 3.6e+01,  Train Acc: 34.38%,Val Loss:   6.8,  Val Acc: 24.98%, Val F1:  6.95% Time: 295.79642629623413 
+ 
+ 
+Train time usage: 298.3081512451172
+Test time usage: 1.7345709800720215
+TOP: Test Loss:   6.6,  Test Acc: 59.58%, Test F1: 50.93%
+SEC: Test Loss:   6.6,  Test Acc: 45.62%, Test F1: 28.95%
+CONN: Test Loss:   6.6,  Test Acc: 22.33%, Test F1:  6.99%
+consistency_top_sec: 43.70%,  consistency_sec_conn: 18.00%, consistency_top_sec_conn: 17.42%
+              precision    recall  f1-score   support
+
+    Temporal     0.3881    0.3768    0.3824        69
+ Contingency     0.5179    0.4762    0.4962       273
+  Comparison     0.4610    0.4514    0.4561       144
+   Expansion     0.6862    0.7197    0.7026       553
+
+    accuracy                         0.5958      1039
+   macro avg     0.5133    0.5060    0.5093      1039
+weighted avg     0.5910    0.5958    0.5929      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3387    0.3818    0.3590        55
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.4981    0.4851    0.4915       268
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.4245    0.4609    0.4419       128
+      Comparison.Concession     0.5000    0.0588    0.1053        17
+      Expansion.Conjunction     0.4561    0.5200    0.4860       200
+    Expansion.Instantiation     0.6636    0.6068    0.6339       117
+      Expansion.Restatement     0.3899    0.4009    0.3953       212
+      Expansion.Alternative     0.1250    0.2222    0.1600         9
+             Expansion.List     0.1667    0.0833    0.1111        12
+
+                   accuracy                         0.4562      1039
+                  macro avg     0.3239    0.2927    0.2895      1039
+               weighted avg     0.4520    0.4562    0.4502      1039
+
+Epoch [15/15]
+top-down:TOP: Iter:   5600,  Train Loss: 2.8e+01,  Train Acc: 93.75%,Val Loss:   6.9,  Val Acc: 59.48%, Val F1: 48.50% Time: 73.59132766723633 
+top-down:SEC: Iter:   5600,  Train Loss: 2.8e+01,  Train Acc: 78.12%,Val Loss:   6.9,  Val Acc: 44.55%, Val F1: 28.61% Time: 73.59132766723633 
+top-down:CONN: Iter:   5600,  Train Loss: 2.8e+01,  Train Acc: 50.00%,Val Loss:   6.9,  Val Acc: 23.95%, Val F1:  6.26% Time: 73.59132766723633 
+ 
+ 
+top-down:TOP: Iter:   5700,  Train Loss: 2.7e+01,  Train Acc: 93.75%,Val Loss:   6.9,  Val Acc: 59.23%, Val F1: 48.29% Time: 149.05616903305054 
+top-down:SEC: Iter:   5700,  Train Loss: 2.7e+01,  Train Acc: 81.25%,Val Loss:   6.9,  Val Acc: 44.81%, Val F1: 28.70% Time: 149.05616903305054 
+top-down:CONN: Iter:   5700,  Train Loss: 2.7e+01,  Train Acc: 53.12%,Val Loss:   6.9,  Val Acc: 24.98%, Val F1:  6.78% Time: 149.05616903305054 
+ 
+ 
+top-down:TOP: Iter:   5800,  Train Loss: 2.4e+01,  Train Acc: 87.50%,Val Loss:   6.9,  Val Acc: 59.40%, Val F1: 48.13% Time: 224.26808857917786 
+top-down:SEC: Iter:   5800,  Train Loss: 2.4e+01,  Train Acc: 68.75%,Val Loss:   6.9,  Val Acc: 44.81%, Val F1: 27.81% Time: 224.26808857917786 
+top-down:CONN: Iter:   5800,  Train Loss: 2.4e+01,  Train Acc: 56.25%,Val Loss:   6.9,  Val Acc: 24.72%, Val F1:  6.72% Time: 224.26808857917786 
+ 
+ 
+Train time usage: 294.94483256340027
+Test time usage: 1.72055983543396
+TOP: Test Loss:   6.6,  Test Acc: 59.96%, Test F1: 50.76%
+SEC: Test Loss:   6.6,  Test Acc: 45.04%, Test F1: 28.15%
+CONN: Test Loss:   6.6,  Test Acc: 21.94%, Test F1:  7.05%
+consistency_top_sec: 43.41%,  consistency_sec_conn: 17.32%, consistency_top_sec_conn: 16.65%
+              precision    recall  f1-score   support
+
+    Temporal     0.3731    0.3623    0.3676        69
+ Contingency     0.5281    0.4469    0.4841       273
+  Comparison     0.4626    0.4722    0.4674       144
+   Expansion     0.6869    0.7378    0.7114       553
+
+    accuracy                         0.5996      1039
+   macro avg     0.5127    0.5048    0.5076      1039
+weighted avg     0.5932    0.5996    0.5950      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.3333    0.3636    0.3478        55
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5060    0.4739    0.4894       268
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.4207    0.4766    0.4469       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.4455    0.4900    0.4667       200
+    Expansion.Instantiation     0.6636    0.6239    0.6432       117
+      Expansion.Restatement     0.3864    0.4009    0.3935       212
+      Expansion.Alternative     0.1667    0.3333    0.2222         9
+             Expansion.List     0.0909    0.0833    0.0870        12
+
+                   accuracy                         0.4504      1039
+                  macro avg     0.2739    0.2951    0.2815      1039
+               weighted avg     0.4418    0.4504    0.4452      1039
+
+dev_best_acc_top: 60.52%,  dev_best_f1_top: 51.87%, 
+dev_best_acc_sec: 45.58%,  dev_best_f1_sec: 30.80%, 
+dev_best_acc_conn: 24.46%,  dev_best_f1_conn:  6.28%
