@@ -1,0 +1,79 @@
+nohup: ignoring input and appending output to 'nohup.out'
+/home/VD/peterb/python/lib/python3.10/site-packages/torch_geometric/typing.py:47: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.29' not found (required by /local/home/VD/peterb/python/lib/python3.10/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/VD/peterb/python/lib/python3.10/site-packages/torch_geometric/typing.py:101: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.29' not found (required by /local/home/VD/peterb/python/lib/python3.10/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+{'cuda': 0, 'seed': 0, 'data_file': 'data/PDTB/Ji/data/', 'log_file': 'data/PDTB/Ji//log/', 'save_file': 'data/PDTB/Ji//saved_dict/', 'model_name_or_path': 'roberta-base', 'freeze_bert': False, 'temperature': 0.1, 'num_co_attention_layer': 2, 'num_gcn_layer': 2, 'gcn_dropout': 0.1, 'label_embedding_size': 100, 'lambda_global': 0.1, 'lambda_local': 1.0, 'pad_size': 100, 'batch_size': 32, 'epoch': 15, 'lr': 1e-05, 'warmup_ratio': 0.05, 'evaluate_steps': 100, 'require_improvement': 10000, 'i2top': '', 'top2i': '', 'n_top': 4, 'i2sec': '', 'sec2i': '', 'n_sec': 11, 'i2conn': '', 'conn2i': '', 'n_conn': 102, 'label_num': 117, 'tokenizer': '', 'config': '', 't': 'March04-17:24:12', 'log': 'data/PDTB/Ji//log/March04-17:24:12.log', 'device': device(type='cuda', index=0)}
+Loading data...
+0it [00:00, ?it/s]66it [00:00, 651.80it/s]171it [00:00, 883.17it/s]265it [00:00, 906.15it/s]362it [00:00, 929.78it/s]464it [00:00, 956.37it/s]564it [00:00, 970.45it/s]685it [00:00, 1047.79it/s]798it [00:00, 1070.86it/s]915it [00:00, 1100.21it/s]1034it [00:01, 1126.97it/s]1153it [00:01, 1145.91it/s]1287it [00:01, 1204.03it/s]1416it [00:01, 1227.40it/s]1539it [00:01, 1216.81it/s]1661it [00:01, 1156.16it/s]1789it [00:01, 1190.29it/s]1913it [00:01, 1201.60it/s]2042it [00:01, 1226.99it/s]2166it [00:01, 1208.91it/s]2288it [00:02, 1201.32it/s]2425it [00:02, 1248.33it/s]2553it [00:02, 1256.16it/s]2680it [00:02, 1260.06it/s]2809it [00:02, 1266.55it/s]2940it [00:02, 1278.17it/s]3068it [00:02, 1259.81it/s]3195it [00:02, 1262.01it/s]3322it [00:02, 1259.94it/s]3460it [00:02, 1291.91it/s]3590it [00:03, 1271.00it/s]3719it [00:03, 1272.61it/s]3847it [00:03, 1243.08it/s]3982it [00:03, 1273.73it/s]4110it [00:03, 1267.20it/s]4237it [00:03, 1246.27it/s]4362it [00:03, 1224.92it/s]4485it [00:03, 1218.01it/s]4610it [00:03, 1226.27it/s]4744it [00:03, 1256.94it/s]4882it [00:04, 1291.27it/s]5016it [00:04, 1305.65it/s]5149it [00:04, 1308.88it/s]5293it [00:04, 1345.14it/s]5428it [00:04, 1318.11it/s]5572it [00:04, 1353.15it/s]5708it [00:04, 1345.62it/s]5869it [00:04, 1421.00it/s]6012it [00:04, 1375.55it/s]6150it [00:05, 1367.66it/s]6293it [00:05, 1384.10it/s]6432it [00:05, 1368.04it/s]6572it [00:05, 1373.30it/s]6711it [00:05, 1376.00it/s]6850it [00:05, 1377.19it/s]6988it [00:05, 1374.64it/s]7126it [00:05, 1341.00it/s]7274it [00:05, 1378.68it/s]7413it [00:05, 1359.72it/s]7550it [00:06, 1361.56it/s]7687it [00:06, 1352.23it/s]7828it [00:06, 1368.38it/s]7978it [00:06, 1404.79it/s]8119it [00:06, 1381.99it/s]8260it [00:06, 1388.43it/s]8399it [00:06, 1347.25it/s]8535it [00:06, 1332.60it/s]8669it [00:07, 849.61it/s] 8813it [00:07, 971.70it/s]8949it [00:07, 1058.48it/s]9094it [00:07, 1154.48it/s]9234it [00:07, 1216.55it/s]9380it [00:07, 1281.26it/s]9528it [00:07, 1336.11it/s]9675it [00:07, 1372.23it/s]9826it [00:07, 1411.91it/s]9971it [00:07, 1386.05it/s]10119it [00:08, 1412.28it/s]10262it [00:08, 1376.06it/s]10409it [00:08, 1401.52it/s]10567it [00:08, 1453.04it/s]10714it [00:08, 1443.20it/s]10863it [00:08, 1455.13it/s]11009it [00:08, 1450.74it/s]11157it [00:08, 1456.34it/s]11304it [00:08, 1460.24it/s]11451it [00:08, 1446.01it/s]11596it [00:09, 1438.87it/s]11740it [00:09, 1426.96it/s]11883it [00:09, 1395.16it/s]12023it [00:09, 1366.41it/s]12160it [00:09, 1360.67it/s]12307it [00:09, 1389.13it/s]12447it [00:09, 1360.58it/s]12547it [00:09, 1281.27it/s]
+0it [00:00, ?it/s]140it [00:00, 1394.28it/s]289it [00:00, 1449.66it/s]434it [00:00, 1445.31it/s]579it [00:00, 1417.31it/s]721it [00:00, 1384.74it/s]862it [00:00, 1392.46it/s]1002it [00:00, 1389.35it/s]1149it [00:00, 1411.77it/s]1165it [00:00, 1410.84it/s]
+0it [00:00, ?it/s]133it [00:00, 1329.61it/s]280it [00:00, 1411.03it/s]432it [00:00, 1458.99it/s]580it [00:00, 1467.16it/s]727it [00:00, 1463.86it/s]874it [00:00, 1446.60it/s]1028it [00:00, 1475.75it/s]1039it [00:00, 1456.86it/s]
+Time usage: 21.54438805580139
+https://huggingface.co:443 "HEAD /roberta-base/resolve/main/config.json HTTP/1.1" 200 0
+Epoch [1/15]
+top-down:TOP: Iter:    100,  Train Loss: 3e+01,  Train Acc: 43.75%,Val Loss:   6.6,  Val Acc: 55.88%, Val F1: 17.92% Time: 86.26428055763245 *
+top-down:SEC: Iter:    100,  Train Loss: 3e+01,  Train Acc: 15.62%,Val Loss:   6.6,  Val Acc: 28.76%, Val F1:  9.20% Time: 86.26428055763245 *
+top-down:CONN: Iter:    100,  Train Loss: 3e+01,  Train Acc: 25.00%,Val Loss:   6.6,  Val Acc: 15.36%, Val F1:  0.77% Time: 86.26428055763245 *
+ 
+ 
+top-down:TOP: Iter:    200,  Train Loss: 3.5e+01,  Train Acc: 65.62%,Val Loss:   6.1,  Val Acc: 59.14%, Val F1: 36.00% Time: 162.35335230827332 *
+top-down:SEC: Iter:    200,  Train Loss: 3.5e+01,  Train Acc: 56.25%,Val Loss:   6.1,  Val Acc: 37.08%, Val F1: 12.61% Time: 162.35335230827332 *
+top-down:CONN: Iter:    200,  Train Loss: 3.5e+01,  Train Acc: 21.88%,Val Loss:   6.1,  Val Acc: 18.37%, Val F1:  1.72% Time: 162.35335230827332 *
+ 
+ 
+top-down:TOP: Iter:    300,  Train Loss: 2.9e+01,  Train Acc: 46.88%,Val Loss:   5.3,  Val Acc: 65.06%, Val F1: 52.41% Time: 238.59370350837708 *
+top-down:SEC: Iter:    300,  Train Loss: 2.9e+01,  Train Acc: 50.00%,Val Loss:   5.3,  Val Acc: 50.99%, Val F1: 25.68% Time: 238.59370350837708 *
+top-down:CONN: Iter:    300,  Train Loss: 2.9e+01,  Train Acc: 31.25%,Val Loss:   5.3,  Val Acc: 26.78%, Val F1:  4.06% Time: 238.59370350837708 *
+ 
+ 
+Train time usage: 310.1112837791443
+Test time usage: 1.7595763206481934
+TOP: Test Loss:   4.7,  Test Acc: 67.85%, Test F1: 60.27%
+SEC: Test Loss:   4.7,  Test Acc: 56.11%, Test F1: 31.16%
+CONN: Test Loss:   4.7,  Test Acc: 28.20%, Test F1:  6.29%
+consistency_top_sec: 53.03%,  consistency_sec_conn: 23.68%, consistency_top_sec_conn: 23.10%
+              precision    recall  f1-score   support
+
+    Temporal     0.6486    0.3529    0.4571        68
+ Contingency     0.5784    0.6460    0.6103       274
+  Comparison     0.5695    0.5931    0.5811       145
+   Expansion     0.7670    0.7572    0.7621       552
+
+    accuracy                         0.6785      1039
+   macro avg     0.6409    0.5873    0.6027      1039
+weighted avg     0.6820    0.6785    0.6768      1039
+
+                             precision    recall  f1-score   support
+
+      Temporal.Asynchronous     0.5750    0.4259    0.4894        54
+         Temporal.Synchrony     0.0000    0.0000    0.0000        14
+          Contingency.Cause     0.5606    0.6877    0.6177       269
+Contingency.Pragmatic cause     0.0000    0.0000    0.0000         7
+        Comparison.Contrast     0.5250    0.6562    0.5833       128
+      Comparison.Concession     0.0000    0.0000    0.0000        17
+      Expansion.Conjunction     0.5812    0.5550    0.5678       200
+    Expansion.Instantiation     0.8841    0.5169    0.6524       118
+      Expansion.Restatement     0.4779    0.5640    0.5174       211
+      Expansion.Alternative     0.0000    0.0000    0.0000         9
+             Expansion.List     0.0000    0.0000    0.0000        12
+
+                   accuracy                         0.5611      1039
+                  macro avg     0.3276    0.3096    0.3116      1039
+               weighted avg     0.5490    0.5611    0.5457      1039
+
+Epoch [2/15]
+top-down:TOP: Iter:    400,  Train Loss: 3.2e+01,  Train Acc: 59.38%,Val Loss:   5.1,  Val Acc: 66.61%, Val F1: 53.80% Time: 12.035727977752686 *
+top-down:SEC: Iter:    400,  Train Loss: 3.2e+01,  Train Acc: 59.38%,Val Loss:   5.1,  Val Acc: 51.67%, Val F1: 27.06% Time: 12.035727977752686 *
+top-down:CONN: Iter:    400,  Train Loss: 3.2e+01,  Train Acc: 15.62%,Val Loss:   5.1,  Val Acc: 28.84%, Val F1:  5.99% Time: 12.035727977752686 *
+ 
+ 
+top-down:TOP: Iter:    500,  Train Loss: 2.6e+01,  Train Acc: 65.62%,Val Loss:   4.9,  Val Acc: 67.38%, Val F1: 56.06% Time: 88.43436765670776 *
+top-down:SEC: Iter:    500,  Train Loss: 2.6e+01,  Train Acc: 53.12%,Val Loss:   4.9,  Val Acc: 52.62%, Val F1: 28.41% Time: 88.43436765670776 *
+top-down:CONN: Iter:    500,  Train Loss: 2.6e+01,  Train Acc: 31.25%,Val Loss:   4.9,  Val Acc: 29.61%, Val F1:  6.64% Time: 88.43436765670776 *
+ 
+ 
+top-down:TOP: Iter:    600,  Train Loss: 3.1e+01,  Train Acc: 78.12%,Val Loss:   5.0,  Val Acc: 66.27%, Val F1: 56.40% Time: 165.4225137233734 *
+top-down:SEC: Iter:    600,  Train Loss: 3.1e+01,  Train Acc: 62.50%,Val Loss:   5.0,  Val Acc: 51.33%, Val F1: 31.55% Time: 165.4225137233734 *
+top-down:CONN: Iter:    600,  Train Loss: 3.1e+01,  Train Acc: 40.62%,Val Loss:   5.0,  Val Acc: 31.50%, Val F1:  7.97% Time: 165.4225137233734 *
+ 
+ 
