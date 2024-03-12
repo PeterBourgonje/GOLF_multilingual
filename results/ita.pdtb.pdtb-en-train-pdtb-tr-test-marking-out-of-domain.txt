@@ -1,0 +1,13 @@
+nohup: ignoring input and appending output to 'nohup.out'
+/home/VD/peterb/python/lib/python3.10/site-packages/torch_geometric/typing.py:47: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.29' not found (required by /local/home/VD/peterb/python/lib/python3.10/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/VD/peterb/python/lib/python3.10/site-packages/torch_geometric/typing.py:101: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.29' not found (required by /local/home/VD/peterb/python/lib/python3.10/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+{'cuda': 0, 'seed': 0, 'data_file': 'data/pdtb_it_luna_train_luna_test_marking_out_of_domain/data/', 'log_file': 'data/pdtb_it_luna_train_luna_test_marking_out_of_domain/log/', 'save_file': 'data/pdtb_it_luna_train_luna_test_marking_out_of_domain/saved_dict/', 'model_name_or_path': 'xlm-roberta-base', 'freeze_bert': False, 'temperature': 0.1, 'num_co_attention_layer': 2, 'num_gcn_layer': 2, 'gcn_dropout': 0.1, 'label_embedding_size': 100, 'lambda_global': 0.1, 'lambda_local': 1.0, 'pad_size': 100, 'batch_size': 32, 'epoch': 30, 'lr': 1e-05, 'warmup_ratio': 0.05, 'evaluate_steps': 100, 'require_improvement': 10000, 'i2top': '', 'top2i': '', 'n_top': 4, 'i2sec': '', 'sec2i': '', 'n_sec': 11, 'i2conn': '', 'conn2i': '', 'n_conn': 102, 'label_num': 117, 'tokenizer': '', 'config': '', 't': 'March10-14:04:12', 'log': 'data/pdtb_it_luna_train_luna_test_marking_out_of_domain/log/March10-14:04:12.log', 'device': device(type='cuda', index=0)}
+Loading data...
+0it [00:00, ?it/s]187it [00:00, 1866.74it/s]487it [00:00, 2531.71it/s]728it [00:00, 2596.76it/s]
+0it [00:00, ?it/s]168it [00:00, 3025.91it/s]
+0it [00:00, ?it/s]292it [00:00, 3167.67it/s]
+Time usage: 9.668295621871948
+https://huggingface.co:443 "HEAD /xlm-roberta-base/resolve/main/config.json HTTP/1.1" 200 0
+Epoch [1/30]

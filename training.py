@@ -14,7 +14,7 @@ from utils import get_time_dif
 from pytorch_pretrained_bert.optimization import BertAdam
 
 
-def train(args, model, train_loader, dev_loader, test_loader):
+def train(args, model, train_loader, dev_loader, test_loader, in_domain):
     param_optimizer = list(model.named_parameters())
     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
     optimizer_grouped_parameters = [
@@ -40,7 +40,7 @@ def train(args, model, train_loader, dev_loader, test_loader):
         lgg.info('Epoch [{}/{}]'.format(epoch + 1, args.epoch))
         for i, (x, _, mask, _, y1_top, y1_sec, y1_conn, _, _, _, arg1_mask, arg2_mask) in enumerate(train_loader):
             model.train()
-            logits_top, logits_sec, logits_conn, loss = model(x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask, train=True)
+            logits_top, logits_sec, logits_conn, loss = model(x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask, in_domain, train=True)
             loss.backward()
             optimizer.step()
             optimizer.zero_grad()
@@ -156,8 +156,8 @@ def evaluate(args, model, data_loader, test=False):
 
     with torch.no_grad():
         for i, (x, _, mask, _, y1_top, y1_sec, y1_conn, y2_top, y2_sec, y2_conn, arg1_mask, arg2_mask) in enumerate(data_loader):
-
-            logits_top, logits_sec, logits_conn = model(x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask, train=False)
+            in_domain = False
+            logits_top, logits_sec, logits_conn = model(x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask, in_domain, train=False)
             
             loss_top = F.cross_entropy(logits_top, y1_top)
             loss_sec = F.cross_entropy(logits_sec, y1_sec)

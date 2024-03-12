@@ -3,7 +3,7 @@
 Created on Jan 21 2023
 @author: JIANG Yuxin
 """
-
+import sys
 import time
 import torch
 import argparse
@@ -139,4 +139,16 @@ if __name__ == '__main__':
 
     # train
     model = Model(args).to(args.device)
-    train(args, model, train_loader, dev_loader, test_loader)
+
+    if os.path.exists(os.path.join(args.data_file + 'train-out-of-domain.txt')):
+        train_dataset_out_of_domain = MyDataset(args, args.data_file + 'train-out-of-domain.txt')
+        train_loader_out_of_domain = DataLoader(dataset=train_dataset_out_of_domain,
+                                  batch_size=args.batch_size,
+                                  shuffle=True)
+        sys.stderr.write('INFO: Training with out of domain data.\n')
+        in_domain = False
+        train(args, model, train_loader_out_of_domain, dev_loader, test_loader, in_domain)
+
+    in_domain = True    
+    train(args, model, train_loader, dev_loader, test_loader, in_domain)
+

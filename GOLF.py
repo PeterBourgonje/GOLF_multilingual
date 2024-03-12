@@ -102,9 +102,9 @@ class Model(nn.Module):
     def dice(self, A, B):
         return (2 * len(set(A).intersection(set(B)))) / (len(set(A)) + len(set(B)))
     
-    def forward(self, x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask, train=False):
+    def forward(self, x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask, in_domain, train=False):
         if train:
-            return self.train_forward(x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask)
+            return self.train_forward(x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask, in_domain)
         else:
             return self.evaluate_forward(x, mask, arg1_mask, arg2_mask)
     
@@ -141,7 +141,7 @@ class Model(nn.Module):
         
         return logits_top, logits_sec, logits_conn
     
-    def train_forward(self, x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask):
+    def train_forward(self, x, mask, y1_top, y1_sec, y1_conn, arg1_mask, arg2_mask, in_domain):
         ### BERT encoder
         bs = x.shape[0]
         context = torch.cat([x, x], dim=0)  # (batch*2, len)
@@ -152,7 +152,7 @@ class Model(nn.Module):
         ### dual multi-head attention
         arg1_mask = torch.cat([arg1_mask, arg1_mask], dim=0)[:, None, None, :]
         arg2_mask = torch.cat([arg2_mask, arg2_mask], dim=0)[:, None, None, :]
-        
+
         hidden_last = bert_out.last_hidden_state
         for i in range(self.args.num_co_attention_layer):
             arg2_hidden_last, _ = self.co_attention_layer_1(q=hidden_last, 
@@ -163,9 +163,15 @@ class Model(nn.Module):
                                                             k=hidden_last, 
                                                             v=hidden_last, 
                                                             mask=arg2_mask)
+            domain_vector = torch.zeros(arg1_hidden_last.size(), dtype=torch.float32).to(x.device)
+            if in_domain:
+                domain_vector = torch.ones(arg1_hidden_last.size(), dtype=torch.float32).to(x.device)
+            
             updated_hidden_last = (arg1_hidden_last * arg1_mask.squeeze().unsqueeze(dim=-1)) \
-                                + (arg2_hidden_last * arg2_mask.squeeze().unsqueeze(dim=-1))
+                                + (arg2_hidden_last * arg2_mask.squeeze().unsqueeze(dim=-1)) \
+                                + domain_vector  # PB: this concatenates the last layer with a vector marked for in-domain-ness
             hidden_last = self.layer_norm(updated_hidden_last) # (batch*2, seq_len, hidden)
+
       
         
         ### compute sudo label for contrastive learning
