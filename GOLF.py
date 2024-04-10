@@ -177,7 +177,7 @@ class Model(nn.Module):
         ### compute sudo label for contrastive learning
         y10 = y1_top
         y11 = y1_sec.cpu().numpy()
-        y11 += self.args.n_top
+        #y11 += self.args.n_top
         y11 = torch.from_numpy(y11).to(x.device)
         y12 = y1_conn.cpu().numpy()
         y12 += (self.args.n_top + self.args.n_sec)
