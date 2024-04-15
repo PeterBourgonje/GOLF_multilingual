@@ -180,7 +180,7 @@ class Model(nn.Module):
         #y11 += self.args.n_top
         y11 = torch.from_numpy(y11).to(x.device)
         y12 = y1_conn.cpu().numpy()
-        y12 += (self.args.n_top + self.args.n_sec)
+        #y12 += (self.args.n_top + self.args.n_sec)
         y12 = torch.from_numpy(y12).to(x.device)
         
         # Top

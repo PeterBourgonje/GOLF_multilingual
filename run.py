@@ -25,6 +25,7 @@ from utils import MyDataset, get_time_dif
 warnings.filterwarnings("ignore")
 transformers.utils.logging.set_verbosity_error()
 
+#torch.cuda.set_device(1)
 
 def setlogging(level, filename):
     for handler in lgg.root.handlers[:]:
