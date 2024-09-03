@@ -215,6 +215,17 @@ def evaluate(args, model, data_loader, test=False):
     # else:
     #     cut_off = 1653
 
+    import time
+    timestr = time.strftime("%Y%m%d-%H%M%S")
+    tst_out_top = open('predictions_top-%s.txt' % timestr, 'w', encoding='utf8')
+    tst_out_sec = open('predictions_sec-%s.txt' % timestr, 'w', encoding='utf8')
+    for p in predict_sense_top:
+        str_label = model.args.i2top[p]
+        tst_out_top.write(str_label+'\n')
+    for p in predict_sense_sec:
+        str_label = model.args.i2sec[p]
+        tst_out_sec.write(str_label+'\n')
+    
     acc_top = metrics.accuracy_score(gold_sense_top, predict_sense_top)
     f1_top = metrics.f1_score(gold_sense_top, predict_sense_top, average='macro')
 
