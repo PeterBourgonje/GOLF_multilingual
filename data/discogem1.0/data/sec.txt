@@ -1,0 +1,12 @@
+Comparison.Concession
+Temporal.Synchronous
+Temporal.Asynchronous
+Expansion.Level-of-detail
+Expansion.Conjunction
+Comparison.Similarity
+Comparison.Contrast
+Contingency.Purpose
+Expansion.Substitution
+Expansion.Disjunction
+Contingency.Cause
+Expansion.Instantiation
